@@ -1,0 +1,14 @@
+{
+  "name": "ejercicioa",
+  "version": "1.0.0",
+  "description": "consumo de API",
+  "main": "index.js",
+  "scripts": {
+    "start": "web-dev-server --node-resolve --open --watch"
+  },
+  "keywords": [
+    "[]"
+  ],
+  "author": "salvador m",
+  "license": "UNLICENSED"
+}

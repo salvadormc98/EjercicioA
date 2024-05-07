@@ -1,0 +1,2464 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/idscomercial/.nvm/versions/node/v4.5.0/bin/node',
+1 verbose cli   '/Users/idscomercial/.nvm/versions/node/v4.5.0/bin/npm',
+1 verbose cli   'i',
+1 verbose cli   'lit' ]
+2 info using npm@2.15.9
+3 info using node@v4.5.0
+4 verbose install initial load of /Users/idscomercial/Desktop/ejercicioA/package.json
+5 warn package.json ejercicioa@1.0.0 No repository field.
+6 warn package.json ejercicioa@1.0.0 No README data
+7 verbose readDependencies loading dependencies from /Users/idscomercial/Desktop/ejercicioA/package.json
+8 silly cache add args [ 'lit', null ]
+9 verbose cache add spec lit
+10 silly cache add parsed spec Result {
+10 silly cache add   raw: 'lit',
+10 silly cache add   scope: null,
+10 silly cache add   name: 'lit',
+10 silly cache add   rawSpec: '',
+10 silly cache add   spec: 'latest',
+10 silly cache add   type: 'tag' }
+11 silly addNamed lit@latest
+12 verbose addNamed "latest" is being treated as a dist-tag for lit
+13 info addNameTag [ 'lit', 'latest' ]
+14 silly mapToRegistry name lit
+15 silly mapToRegistry using default registry
+16 silly mapToRegistry registry https://registry.npmjs.org/
+17 silly mapToRegistry data Result {
+17 silly mapToRegistry   raw: 'lit',
+17 silly mapToRegistry   scope: null,
+17 silly mapToRegistry   name: 'lit',
+17 silly mapToRegistry   rawSpec: '',
+17 silly mapToRegistry   spec: 'latest',
+17 silly mapToRegistry   type: 'tag' }
+18 silly mapToRegistry uri https://registry.npmjs.org/lit
+19 verbose addNameTag registry:https://registry.npmjs.org/lit not in flight; fetching
+20 verbose request uri https://registry.npmjs.org/lit
+21 verbose request no auth needed
+22 info attempt registry request try #1 at 20:15:50
+23 verbose request id cea2e416221d9a09
+24 verbose etag W/"e368f08a220a7bcaa7db73fdd827af19"
+25 verbose lastModified Mon, 15 Apr 2024 23:16:02 GMT
+26 http request GET https://registry.npmjs.org/lit
+27 http 304 https://registry.npmjs.org/lit
+28 verbose headers { date: 'Tue, 07 May 2024 01:15:51 GMT',
+28 verbose headers   connection: 'keep-alive',
+28 verbose headers   'cf-ray': '87fd5c7cbc926b27-DFW',
+28 verbose headers   'cf-cache-status': 'REVALIDATED',
+28 verbose headers   'cache-control': 'public, max-age=300',
+28 verbose headers   etag: '"e368f08a220a7bcaa7db73fdd827af19"',
+28 verbose headers   'last-modified': 'Mon, 15 Apr 2024 23:16:02 GMT',
+28 verbose headers   vary: 'Accept-Encoding',
+28 verbose headers   server: 'cloudflare' }
+29 silly get cb [ 304,
+29 silly get   { date: 'Tue, 07 May 2024 01:15:51 GMT',
+29 silly get     connection: 'keep-alive',
+29 silly get     'cf-ray': '87fd5c7cbc926b27-DFW',
+29 silly get     'cf-cache-status': 'REVALIDATED',
+29 silly get     'cache-control': 'public, max-age=300',
+29 silly get     etag: '"e368f08a220a7bcaa7db73fdd827af19"',
+29 silly get     'last-modified': 'Mon, 15 Apr 2024 23:16:02 GMT',
+29 silly get     vary: 'Accept-Encoding',
+29 silly get     server: 'cloudflare' } ]
+30 verbose etag https://registry.npmjs.org/lit from cache
+31 verbose get saving lit to /Users/idscomercial/.npm/registry.npmjs.org/lit/.cache.json
+32 verbose correctMkdir /Users/idscomercial/.npm correctMkdir not in flight; initializing
+33 silly addNameTag next cb for lit with tag latest
+34 silly addNamed lit@3.1.3
+35 verbose addNamed "3.1.3" is a plain semver version for lit
+36 silly cache afterAdd lit@3.1.3
+37 verbose afterAdd /Users/idscomercial/.npm/lit/3.1.3/package/package.json not in flight; writing
+38 verbose correctMkdir /Users/idscomercial/.npm correctMkdir not in flight; initializing
+39 verbose afterAdd /Users/idscomercial/.npm/lit/3.1.3/package/package.json written
+40 silly install resolved [ { name: 'lit',
+40 silly install resolved     version: '3.1.3',
+40 silly install resolved     publishConfig: { access: 'public' },
+40 silly install resolved     description: 'A library for building fast, lightweight web components',
+40 silly install resolved     license: 'BSD-3-Clause',
+40 silly install resolved     repository:
+40 silly install resolved      { type: 'git',
+40 silly install resolved        url: 'git+https://github.com/lit/lit.git',
+40 silly install resolved        directory: 'packages/lit' },
+40 silly install resolved     author: { name: 'Google LLC' },
+40 silly install resolved     homepage: 'https://lit.dev/',
+40 silly install resolved     main: 'index.js',
+40 silly install resolved     module: 'index.js',
+40 silly install resolved     type: 'module',
+40 silly install resolved     exports:
+40 silly install resolved      { '.': [Object],
+40 silly install resolved        './async-directive.js': [Object],
+40 silly install resolved        './decorators.js': [Object],
+40 silly install resolved        './decorators/custom-element.js': [Object],
+40 silly install resolved        './decorators/event-options.js': [Object],
+40 silly install resolved        './decorators/property.js': [Object],
+40 silly install resolved        './decorators/query-all.js': [Object],
+40 silly install resolved        './decorators/query-assigned-elements.js': [Object],
+40 silly install resolved        './decorators/query-assigned-nodes.js': [Object],
+40 silly install resolved        './decorators/query-async.js': [Object],
+40 silly install resolved        './decorators/query.js': [Object],
+40 silly install resolved        './decorators/state.js': [Object],
+40 silly install resolved        './directive-helpers.js': [Object],
+40 silly install resolved        './directive.js': [Object],
+40 silly install resolved        './directives/async-append.js': [Object],
+40 silly install resolved        './directives/async-replace.js': [Object],
+40 silly install resolved        './directives/cache.js': [Object],
+40 silly install resolved        './directives/choose.js': [Object],
+40 silly install resolved        './directives/class-map.js': [Object],
+40 silly install resolved        './directives/guard.js': [Object],
+40 silly install resolved        './directives/if-defined.js': [Object],
+40 silly install resolved        './directives/join.js': [Object],
+40 silly install resolved        './directives/keyed.js': [Object],
+40 silly install resolved        './directives/live.js': [Object],
+40 silly install resolved        './directives/map.js': [Object],
+40 silly install resolved        './directives/range.js': [Object],
+40 silly install resolved        './directives/ref.js': [Object],
+40 silly install resolved        './directives/repeat.js': [Object],
+40 silly install resolved        './directives/style-map.js': [Object],
+40 silly install resolved        './directives/template-content.js': [Object],
+40 silly install resolved        './directives/unsafe-html.js': [Object],
+40 silly install resolved        './directives/unsafe-svg.js': [Object],
+40 silly install resolved        './directives/until.js': [Object],
+40 silly install resolved        './directives/when.js': [Object],
+40 silly install resolved        './html.js': [Object],
+40 silly install resolved        './polyfill-support.js': [Object],
+40 silly install resolved        './static-html.js': [Object] },
+40 silly install resolved     scripts:
+40 silly install resolved      { build: 'wireit',
+40 silly install resolved        'build:ts': 'wireit',
+40 silly install resolved        'build:ts:types': 'wireit',
+40 silly install resolved        'build:rollup': 'wireit',
+40 silly install resolved        checksize: 'wireit',
+40 silly install resolved        test: 'wireit',
+40 silly install resolved        'test:dev': 'wireit',
+40 silly install resolved        'test:prod': 'wireit',
+40 silly install resolved        'test:node': 'wireit',
+40 silly install resolved        'test:node-dev': 'wireit' },
+40 silly install resolved     wireit:
+40 silly install resolved      { build: [Object],
+40 silly install resolved        'build:ts': [Object],
+40 silly install resolved        'build:ts:types': [Object],
+40 silly install resolved        'build:rollup': [Object],
+40 silly install resolved        checksize: [Object],
+40 silly install resolved        test: [Object],
+40 silly install resolved        'test:dev': [Object],
+40 silly install resolved        'test:prod': [Object],
+40 silly install resolved        'test:node': [Object],
+40 silly install resolved        'test:node-dev': [Object] },
+40 silly install resolved     dependencies:
+40 silly install resolved      { '@lit/reactive-element': '^2.0.4',
+40 silly install resolved        'lit-element': '^4.0.4',
+40 silly install resolved        'lit-html': '^3.1.2' },
+40 silly install resolved     devDependencies:
+40 silly install resolved      { '@lit-internal/scripts': '^1.0.1',
+40 silly install resolved        '@webcomponents/shadycss': '^1.8.0',
+40 silly install resolved        '@webcomponents/template': '^1.4.4',
+40 silly install resolved        '@webcomponents/webcomponentsjs': '^2.8.0',
+40 silly install resolved        tslib: '^2.0.3' },
+40 silly install resolved     typings: 'index.d.ts',
+40 silly install resolved     _id: 'lit@3.1.3',
+40 silly install resolved     gitHead: '700799b9ad4025412796153e09eb048d19957ac0',
+40 silly install resolved     bugs: { url: 'https://github.com/lit/lit/issues' },
+40 silly install resolved     _nodeVersion: '20.12.1',
+40 silly install resolved     _npmVersion: '10.5.0',
+40 silly install resolved     dist:
+40 silly install resolved      { integrity: 'sha512-l4slfspEsnCcHVRTvaP7YnkTZEZggNFywLEIhQaGhYDczG+tu/vlgm/KaWIEjIp+ZyV20r2JnZctMb8LeLCG7Q==',
+40 silly install resolved        shasum: '809ecdaccfea47e1e3b46649fae6c6e7b9802675',
+40 silly install resolved        tarball: 'https://registry.npmjs.org/lit/-/lit-3.1.3.tgz',
+40 silly install resolved        fileCount: 304,
+40 silly install resolved        unpackedSize: 105456,
+40 silly install resolved        signatures: [Object] },
+40 silly install resolved     _npmUser: { name: 'lit-robot', email: 'lit-robot@google.com' },
+40 silly install resolved     directories: {},
+40 silly install resolved     maintainers:
+40 silly install resolved      [ [Object],
+40 silly install resolved        [Object],
+40 silly install resolved        [Object],
+40 silly install resolved        [Object],
+40 silly install resolved        [Object],
+40 silly install resolved        [Object],
+40 silly install resolved        [Object],
+40 silly install resolved        [Object],
+40 silly install resolved        [Object] ],
+40 silly install resolved     _npmOperationalInternal:
+40 silly install resolved      { host: 's3://npm-registry-packages',
+40 silly install resolved        tmp: 'tmp/lit_3.1.3_1713222959871_0.24620622940659898' },
+40 silly install resolved     _hasShrinkwrap: false,
+40 silly install resolved     _shasum: '809ecdaccfea47e1e3b46649fae6c6e7b9802675',
+40 silly install resolved     _resolved: 'https://registry.npmjs.org/lit/-/lit-3.1.3.tgz',
+40 silly install resolved     _from: 'lit@latest',
+40 silly install resolved     readme: 'ERROR: No README data found!' } ]
+41 info install lit@3.1.3 into /Users/idscomercial/Desktop/ejercicioA
+42 info installOne lit@3.1.3
+43 verbose installOne of lit to /Users/idscomercial/Desktop/ejercicioA not in flight; installing
+44 verbose correctMkdir /Users/idscomercial/.npm/_locks correctMkdir not in flight; initializing
+45 verbose lock using /Users/idscomercial/.npm/_locks/lit-3793176c9341c235.lock for /Users/idscomercial/Desktop/ejercicioA/node_modules/lit
+46 silly install write writing lit 3.1.3 to /Users/idscomercial/Desktop/ejercicioA/node_modules/lit
+47 verbose unbuild node_modules/lit
+48 silly gentlyRm /Users/idscomercial/Desktop/ejercicioA/node_modules/lit is being purged from base /Users/idscomercial/Desktop/ejercicioA
+49 verbose gentlyRm don't care about contents; nuking /Users/idscomercial/Desktop/ejercicioA/node_modules/lit
+50 verbose tar unpack /Users/idscomercial/.npm/lit/3.1.3/package.tgz
+51 verbose tar unpacking to /Users/idscomercial/Desktop/ejercicioA/node_modules/lit
+52 silly gentlyRm /Users/idscomercial/Desktop/ejercicioA/node_modules/lit is being purged
+53 verbose gentlyRm don't care about contents; nuking /Users/idscomercial/Desktop/ejercicioA/node_modules/lit
+54 silly gunzTarPerm modes [ '755', '644' ]
+55 silly gunzTarPerm extractEntry LICENSE
+56 silly gunzTarPerm extractEntry development/directives/async-append.js
+57 silly gunzTarPerm extractEntry directives/async-append.js
+58 silly gunzTarPerm extractEntry async-directive.js
+59 silly gunzTarPerm extractEntry development/async-directive.js
+60 silly gunzTarPerm extractEntry development/directives/async-replace.js
+61 silly gunzTarPerm extractEntry directives/async-replace.js
+62 silly gunzTarPerm extractEntry development/directives/cache.js
+63 silly gunzTarPerm extractEntry directives/cache.js
+64 silly gunzTarPerm extractEntry development/directives/choose.js
+65 silly gunzTarPerm extractEntry directives/choose.js
+66 silly gunzTarPerm extractEntry development/directives/class-map.js
+67 silly gunzTarPerm extractEntry directives/class-map.js
+68 silly gunzTarPerm extractEntry decorators/custom-element.js
+69 silly gunzTarPerm extractEntry development/decorators/custom-element.js
+70 silly gunzTarPerm extractEntry decorators.js
+71 silly gunzTarPerm extractEntry development/decorators.js
+72 silly gunzTarPerm extractEntry development/directive-helpers.js
+73 silly gunzTarPerm extractEntry directive-helpers.js
+74 silly gunzTarPerm extractEntry development/directive.js
+75 silly gunzTarPerm extractEntry directive.js
+76 silly gunzTarPerm extractEntry decorators/event-options.js
+77 silly gunzTarPerm extractEntry development/decorators/event-options.js
+78 silly gunzTarPerm extractEntry development/directives/guard.js
+79 silly gunzTarPerm extractEntry directives/guard.js
+80 silly gunzTarPerm extractEntry development/html.js
+81 silly gunzTarPerm extractEntry html.js
+82 silly gunzTarPerm extractEntry development/directives/if-defined.js
+83 silly gunzTarPerm extractEntry directives/if-defined.js
+84 silly gunzTarPerm extractEntry development/index.all.js
+85 silly gunzTarPerm extractEntry development/index.js
+86 silly gunzTarPerm extractEntry index.js
+87 silly gunzTarPerm extractEntry development/directives/join.js
+88 silly gunzTarPerm extractEntry directives/join.js
+89 silly gunzTarPerm extractEntry development/directives/keyed.js
+90 silly gunzTarPerm extractEntry directives/keyed.js
+91 silly gunzTarPerm extractEntry development/directives/live.js
+92 silly gunzTarPerm extractEntry directives/live.js
+93 silly gunzTarPerm extractEntry development/directives/map.js
+94 silly gunzTarPerm extractEntry directives/map.js
+95 silly gunzTarPerm extractEntry development/polyfill-support.js
+96 silly gunzTarPerm extractEntry polyfill-support.js
+97 silly gunzTarPerm extractEntry decorators/property.js
+98 silly gunzTarPerm extractEntry development/decorators/property.js
+99 silly gunzTarPerm extractEntry decorators/query-all.js
+100 silly gunzTarPerm extractEntry development/decorators/query-all.js
+101 silly gunzTarPerm extractEntry decorators/query-assigned-elements.js
+102 silly gunzTarPerm extractEntry development/decorators/query-assigned-elements.js
+103 silly gunzTarPerm extractEntry decorators/query-assigned-nodes.js
+104 silly gunzTarPerm extractEntry development/decorators/query-assigned-nodes.js
+105 silly gunzTarPerm extractEntry decorators/query-async.js
+106 silly gunzTarPerm extractEntry development/decorators/query-async.js
+107 silly gunzTarPerm extractEntry decorators/query.js
+108 silly gunzTarPerm extractEntry development/decorators/query.js
+109 silly gunzTarPerm extractEntry development/directives/range.js
+110 silly gunzTarPerm extractEntry directives/range.js
+111 silly gunzTarPerm extractEntry development/directives/ref.js
+112 silly gunzTarPerm extractEntry directives/ref.js
+113 silly gunzTarPerm extractEntry development/directives/repeat.js
+114 silly gunzTarPerm extractEntry directives/repeat.js
+115 silly gunzTarPerm extractEntry decorators/state.js
+116 silly gunzTarPerm extractEntry development/decorators/state.js
+117 silly gunzTarPerm extractEntry development/static-html.js
+118 silly gunzTarPerm extractEntry static-html.js
+119 silly gunzTarPerm extractEntry development/directives/style-map.js
+120 silly gunzTarPerm extractEntry directives/style-map.js
+121 silly gunzTarPerm extractEntry development/directives/template-content.js
+122 silly gunzTarPerm extractEntry directives/template-content.js
+123 silly gunzTarPerm extractEntry development/directives/unsafe-html.js
+124 silly gunzTarPerm extractEntry directives/unsafe-html.js
+125 silly gunzTarPerm extractEntry development/directives/unsafe-svg.js
+126 silly gunzTarPerm extractEntry directives/unsafe-svg.js
+127 silly gunzTarPerm extractEntry development/directives/until.js
+128 silly gunzTarPerm extractEntry directives/until.js
+129 silly gunzTarPerm extractEntry development/directives/when.js
+130 silly gunzTarPerm extractEntry directives/when.js
+131 silly gunzTarPerm extractEntry package.json
+132 silly gunzTarPerm extractEntry development/directives/async-append.d.ts.map
+133 silly gunzTarPerm extractEntry directives/async-append.d.ts.map
+134 silly gunzTarPerm extractEntry development/directives/async-append.js.map
+135 silly gunzTarPerm extractEntry directives/async-append.js.map
+136 silly gunzTarPerm extractEntry async-directive.d.ts.map
+137 silly gunzTarPerm extractEntry development/async-directive.d.ts.map
+138 silly gunzTarPerm extractEntry async-directive.js.map
+139 silly gunzTarPerm extractEntry development/async-directive.js.map
+140 silly gunzTarPerm extractEntry development/directives/async-replace.d.ts.map
+141 silly gunzTarPerm extractEntry directives/async-replace.d.ts.map
+142 silly gunzTarPerm extractEntry development/directives/async-replace.js.map
+143 silly gunzTarPerm extractEntry directives/async-replace.js.map
+144 silly gunzTarPerm extractEntry development/directives/cache.d.ts.map
+145 silly gunzTarPerm extractEntry directives/cache.d.ts.map
+146 silly gunzTarPerm extractEntry development/directives/cache.js.map
+147 silly gunzTarPerm extractEntry directives/cache.js.map
+148 silly gunzTarPerm extractEntry development/directives/choose.d.ts.map
+149 silly gunzTarPerm extractEntry directives/choose.d.ts.map
+150 silly gunzTarPerm extractEntry development/directives/choose.js.map
+151 silly gunzTarPerm extractEntry directives/choose.js.map
+152 silly gunzTarPerm extractEntry development/directives/class-map.d.ts.map
+153 silly gunzTarPerm extractEntry directives/class-map.d.ts.map
+154 silly gunzTarPerm extractEntry development/directives/class-map.js.map
+155 silly gunzTarPerm extractEntry directives/class-map.js.map
+156 silly gunzTarPerm extractEntry decorators/custom-element.d.ts.map
+157 silly gunzTarPerm extractEntry development/decorators/custom-element.d.ts.map
+158 silly gunzTarPerm extractEntry decorators/custom-element.js.map
+159 silly gunzTarPerm extractEntry development/decorators/custom-element.js.map
+160 silly gunzTarPerm extractEntry decorators.d.ts.map
+161 silly gunzTarPerm extractEntry development/decorators.d.ts.map
+162 silly gunzTarPerm extractEntry decorators.js.map
+163 silly gunzTarPerm extractEntry development/decorators.js.map
+164 silly gunzTarPerm extractEntry development/directive-helpers.d.ts.map
+165 silly gunzTarPerm extractEntry directive-helpers.d.ts.map
+166 silly gunzTarPerm extractEntry development/directive-helpers.js.map
+167 silly gunzTarPerm extractEntry directive-helpers.js.map
+168 silly gunzTarPerm extractEntry development/directive.d.ts.map
+169 silly gunzTarPerm extractEntry directive.d.ts.map
+170 silly gunzTarPerm extractEntry development/directive.js.map
+171 silly gunzTarPerm extractEntry directive.js.map
+172 silly gunzTarPerm extractEntry decorators/event-options.d.ts.map
+173 silly gunzTarPerm extractEntry development/decorators/event-options.d.ts.map
+174 silly gunzTarPerm extractEntry decorators/event-options.js.map
+175 silly gunzTarPerm extractEntry development/decorators/event-options.js.map
+176 silly gunzTarPerm extractEntry development/directives/guard.d.ts.map
+177 silly gunzTarPerm extractEntry directives/guard.d.ts.map
+178 silly gunzTarPerm extractEntry development/directives/guard.js.map
+179 silly gunzTarPerm extractEntry directives/guard.js.map
+180 silly gunzTarPerm extractEntry development/html.d.ts.map
+181 silly gunzTarPerm extractEntry html.d.ts.map
+182 silly gunzTarPerm extractEntry development/html.js.map
+183 silly gunzTarPerm extractEntry html.js.map
+184 silly gunzTarPerm extractEntry development/directives/if-defined.d.ts.map
+185 silly gunzTarPerm extractEntry directives/if-defined.d.ts.map
+186 silly gunzTarPerm extractEntry development/directives/if-defined.js.map
+187 silly gunzTarPerm extractEntry directives/if-defined.js.map
+188 silly gunzTarPerm extractEntry development/index.all.d.ts.map
+189 silly gunzTarPerm extractEntry development/index.all.js.map
+190 silly gunzTarPerm extractEntry development/index.d.ts.map
+191 silly gunzTarPerm extractEntry index.d.ts.map
+192 silly gunzTarPerm extractEntry development/index.js.map
+193 silly gunzTarPerm extractEntry index.js.map
+194 silly gunzTarPerm extractEntry development/directives/join.d.ts.map
+195 silly gunzTarPerm extractEntry directives/join.d.ts.map
+196 silly gunzTarPerm extractEntry development/directives/join.js.map
+197 silly gunzTarPerm extractEntry directives/join.js.map
+198 silly gunzTarPerm extractEntry development/directives/keyed.d.ts.map
+199 silly gunzTarPerm extractEntry directives/keyed.d.ts.map
+200 silly gunzTarPerm extractEntry development/directives/keyed.js.map
+201 silly gunzTarPerm extractEntry directives/keyed.js.map
+202 silly gunzTarPerm extractEntry development/directives/live.d.ts.map
+203 silly gunzTarPerm extractEntry directives/live.d.ts.map
+204 silly gunzTarPerm extractEntry development/directives/live.js.map
+205 silly gunzTarPerm extractEntry directives/live.js.map
+206 silly gunzTarPerm extractEntry development/directives/map.d.ts.map
+207 silly gunzTarPerm extractEntry directives/map.d.ts.map
+208 silly gunzTarPerm extractEntry development/directives/map.js.map
+209 silly gunzTarPerm extractEntry directives/map.js.map
+210 silly gunzTarPerm extractEntry development/polyfill-support.d.ts.map
+211 silly gunzTarPerm extractEntry polyfill-support.d.ts.map
+212 silly gunzTarPerm extractEntry development/polyfill-support.js.map
+213 silly gunzTarPerm extractEntry polyfill-support.js.map
+214 silly gunzTarPerm extractEntry decorators/property.d.ts.map
+215 silly gunzTarPerm extractEntry development/decorators/property.d.ts.map
+216 silly gunzTarPerm extractEntry decorators/property.js.map
+217 silly gunzTarPerm extractEntry development/decorators/property.js.map
+218 silly gunzTarPerm extractEntry decorators/query-all.d.ts.map
+219 silly gunzTarPerm extractEntry development/decorators/query-all.d.ts.map
+220 silly gunzTarPerm extractEntry decorators/query-all.js.map
+221 silly gunzTarPerm extractEntry development/decorators/query-all.js.map
+222 silly gunzTarPerm extractEntry decorators/query-assigned-elements.d.ts.map
+223 silly gunzTarPerm extractEntry development/decorators/query-assigned-elements.d.ts.map
+224 silly gunzTarPerm extractEntry decorators/query-assigned-elements.js.map
+225 silly gunzTarPerm extractEntry development/decorators/query-assigned-elements.js.map
+226 silly gunzTarPerm extractEntry decorators/query-assigned-nodes.d.ts.map
+227 silly gunzTarPerm extractEntry development/decorators/query-assigned-nodes.d.ts.map
+228 silly gunzTarPerm extractEntry decorators/query-assigned-nodes.js.map
+229 silly gunzTarPerm extractEntry development/decorators/query-assigned-nodes.js.map
+230 silly gunzTarPerm extractEntry decorators/query-async.d.ts.map
+231 silly gunzTarPerm extractEntry development/decorators/query-async.d.ts.map
+232 silly gunzTarPerm extractEntry decorators/query-async.js.map
+233 silly gunzTarPerm extractEntry development/decorators/query-async.js.map
+234 silly gunzTarPerm extractEntry decorators/query.d.ts.map
+235 silly gunzTarPerm extractEntry development/decorators/query.d.ts.map
+236 silly gunzTarPerm extractEntry decorators/query.js.map
+237 silly gunzTarPerm extractEntry development/decorators/query.js.map
+238 silly gunzTarPerm extractEntry development/directives/range.d.ts.map
+239 silly gunzTarPerm extractEntry directives/range.d.ts.map
+240 silly gunzTarPerm extractEntry development/directives/range.js.map
+241 silly gunzTarPerm extractEntry directives/range.js.map
+242 silly gunzTarPerm extractEntry development/directives/ref.d.ts.map
+243 silly gunzTarPerm extractEntry directives/ref.d.ts.map
+244 silly gunzTarPerm extractEntry development/directives/ref.js.map
+245 silly gunzTarPerm extractEntry directives/ref.js.map
+246 silly gunzTarPerm extractEntry development/directives/repeat.d.ts.map
+247 silly gunzTarPerm extractEntry directives/repeat.d.ts.map
+248 silly gunzTarPerm extractEntry development/directives/repeat.js.map
+249 silly gunzTarPerm extractEntry directives/repeat.js.map
+250 silly gunzTarPerm extractEntry decorators/state.d.ts.map
+251 silly gunzTarPerm extractEntry development/decorators/state.d.ts.map
+252 silly gunzTarPerm extractEntry decorators/state.js.map
+253 silly gunzTarPerm extractEntry development/decorators/state.js.map
+254 silly gunzTarPerm extractEntry development/static-html.d.ts.map
+255 silly gunzTarPerm extractEntry static-html.d.ts.map
+256 silly gunzTarPerm extractEntry development/static-html.js.map
+257 silly gunzTarPerm extractEntry static-html.js.map
+258 silly gunzTarPerm extractEntry development/directives/style-map.d.ts.map
+259 silly gunzTarPerm extractEntry directives/style-map.d.ts.map
+260 silly gunzTarPerm extractEntry development/directives/style-map.js.map
+261 silly gunzTarPerm extractEntry directives/style-map.js.map
+262 silly gunzTarPerm extractEntry development/directives/template-content.d.ts.map
+263 silly gunzTarPerm extractEntry directives/template-content.d.ts.map
+264 silly gunzTarPerm extractEntry development/directives/template-content.js.map
+265 silly gunzTarPerm extractEntry directives/template-content.js.map
+266 silly gunzTarPerm extractEntry development/directives/unsafe-html.d.ts.map
+267 silly gunzTarPerm extractEntry directives/unsafe-html.d.ts.map
+268 silly gunzTarPerm extractEntry development/directives/unsafe-html.js.map
+269 silly gunzTarPerm extractEntry directives/unsafe-html.js.map
+270 silly gunzTarPerm extractEntry development/directives/unsafe-svg.d.ts.map
+271 silly gunzTarPerm extractEntry directives/unsafe-svg.d.ts.map
+272 silly gunzTarPerm extractEntry development/directives/unsafe-svg.js.map
+273 silly gunzTarPerm extractEntry directives/unsafe-svg.js.map
+274 silly gunzTarPerm extractEntry development/directives/until.d.ts.map
+275 silly gunzTarPerm extractEntry directives/until.d.ts.map
+276 silly gunzTarPerm extractEntry development/directives/until.js.map
+277 silly gunzTarPerm extractEntry directives/until.js.map
+278 silly gunzTarPerm extractEntry development/directives/when.d.ts.map
+279 silly gunzTarPerm extractEntry directives/when.d.ts.map
+280 silly gunzTarPerm extractEntry development/directives/when.js.map
+281 silly gunzTarPerm extractEntry directives/when.js.map
+282 silly gunzTarPerm extractEntry README.md
+283 silly gunzTarPerm extractEntry logo.svg
+284 silly gunzTarPerm extractEntry development/directives/async-append.d.ts
+285 silly gunzTarPerm extractEntry directives/async-append.d.ts
+286 silly gunzTarPerm extractEntry async-directive.d.ts
+287 silly gunzTarPerm extractEntry development/async-directive.d.ts
+288 silly gunzTarPerm extractEntry development/directives/async-replace.d.ts
+289 silly gunzTarPerm extractEntry directives/async-replace.d.ts
+290 silly gunzTarPerm extractEntry development/directives/cache.d.ts
+291 silly gunzTarPerm extractEntry directives/cache.d.ts
+292 silly gunzTarPerm extractEntry development/directives/choose.d.ts
+293 silly gunzTarPerm extractEntry directives/choose.d.ts
+294 silly gunzTarPerm extractEntry development/directives/class-map.d.ts
+295 silly gunzTarPerm extractEntry directives/class-map.d.ts
+296 silly gunzTarPerm extractEntry decorators/custom-element.d.ts
+297 silly gunzTarPerm extractEntry development/decorators/custom-element.d.ts
+298 silly gunzTarPerm extractEntry decorators.d.ts
+299 silly gunzTarPerm extractEntry development/decorators.d.ts
+300 silly gunzTarPerm extractEntry development/directive-helpers.d.ts
+301 silly gunzTarPerm extractEntry directive-helpers.d.ts
+302 silly gunzTarPerm extractEntry development/directive.d.ts
+303 silly gunzTarPerm extractEntry directive.d.ts
+304 silly gunzTarPerm extractEntry decorators/event-options.d.ts
+305 silly gunzTarPerm extractEntry development/decorators/event-options.d.ts
+306 silly gunzTarPerm extractEntry development/directives/guard.d.ts
+307 silly gunzTarPerm extractEntry directives/guard.d.ts
+308 silly gunzTarPerm extractEntry development/html.d.ts
+309 silly gunzTarPerm extractEntry html.d.ts
+310 silly gunzTarPerm extractEntry development/directives/if-defined.d.ts
+311 silly gunzTarPerm extractEntry directives/if-defined.d.ts
+312 silly gunzTarPerm extractEntry development/index.all.d.ts
+313 silly gunzTarPerm extractEntry development/index.d.ts
+314 silly gunzTarPerm extractEntry index.d.ts
+315 silly gunzTarPerm extractEntry development/directives/join.d.ts
+316 silly gunzTarPerm extractEntry directives/join.d.ts
+317 silly gunzTarPerm extractEntry development/directives/keyed.d.ts
+318 silly gunzTarPerm extractEntry directives/keyed.d.ts
+319 silly gunzTarPerm extractEntry development/directives/live.d.ts
+320 silly gunzTarPerm extractEntry directives/live.d.ts
+321 silly gunzTarPerm extractEntry development/directives/map.d.ts
+322 silly gunzTarPerm extractEntry directives/map.d.ts
+323 silly gunzTarPerm extractEntry development/polyfill-support.d.ts
+324 silly gunzTarPerm extractEntry polyfill-support.d.ts
+325 silly gunzTarPerm extractEntry decorators/property.d.ts
+326 silly gunzTarPerm extractEntry development/decorators/property.d.ts
+327 silly gunzTarPerm extractEntry decorators/query-all.d.ts
+328 silly gunzTarPerm extractEntry development/decorators/query-all.d.ts
+329 silly gunzTarPerm extractEntry decorators/query-assigned-elements.d.ts
+330 silly gunzTarPerm extractEntry development/decorators/query-assigned-elements.d.ts
+331 silly gunzTarPerm extractEntry decorators/query-assigned-nodes.d.ts
+332 silly gunzTarPerm extractEntry development/decorators/query-assigned-nodes.d.ts
+333 silly gunzTarPerm extractEntry decorators/query-async.d.ts
+334 silly gunzTarPerm extractEntry development/decorators/query-async.d.ts
+335 silly gunzTarPerm extractEntry decorators/query.d.ts
+336 silly gunzTarPerm extractEntry development/decorators/query.d.ts
+337 silly gunzTarPerm extractEntry development/directives/range.d.ts
+338 silly gunzTarPerm extractEntry directives/range.d.ts
+339 silly gunzTarPerm extractEntry development/directives/ref.d.ts
+340 silly gunzTarPerm extractEntry directives/ref.d.ts
+341 silly gunzTarPerm extractEntry development/directives/repeat.d.ts
+342 silly gunzTarPerm extractEntry directives/repeat.d.ts
+343 silly gunzTarPerm extractEntry decorators/state.d.ts
+344 silly gunzTarPerm extractEntry development/decorators/state.d.ts
+345 silly gunzTarPerm extractEntry development/static-html.d.ts
+346 silly gunzTarPerm extractEntry static-html.d.ts
+347 silly gunzTarPerm extractEntry development/directives/style-map.d.ts
+348 silly gunzTarPerm extractEntry directives/style-map.d.ts
+349 silly gunzTarPerm extractEntry development/directives/template-content.d.ts
+350 silly gunzTarPerm extractEntry directives/template-content.d.ts
+351 silly gunzTarPerm extractEntry development/directives/unsafe-html.d.ts
+352 silly gunzTarPerm extractEntry directives/unsafe-html.d.ts
+353 silly gunzTarPerm extractEntry development/directives/unsafe-svg.d.ts
+354 silly gunzTarPerm extractEntry directives/unsafe-svg.d.ts
+355 silly gunzTarPerm extractEntry development/directives/until.d.ts
+356 silly gunzTarPerm extractEntry directives/until.d.ts
+357 silly gunzTarPerm extractEntry development/directives/when.d.ts
+358 silly gunzTarPerm extractEntry directives/when.d.ts
+359 verbose write writing to /Users/idscomercial/Desktop/ejercicioA/node_modules/lit/package.json
+360 info preinstall lit@3.1.3
+361 verbose readDependencies loading dependencies from /Users/idscomercial/Desktop/ejercicioA/node_modules/lit/package.json
+362 silly prepareForInstallMany adding @lit/reactive-element@^2.0.4 from lit dependencies
+363 silly prepareForInstallMany adding lit-element@^4.0.4 from lit dependencies
+364 silly prepareForInstallMany adding lit-html@^3.1.2 from lit dependencies
+365 verbose readDependencies loading dependencies from /Users/idscomercial/Desktop/ejercicioA/node_modules/lit/package.json
+366 silly cache add args [ '@lit/reactive-element@^2.0.4', null ]
+367 verbose cache add spec @lit/reactive-element@^2.0.4
+368 silly cache add args [ 'lit-element@^4.0.4', null ]
+369 verbose cache add spec lit-element@^4.0.4
+370 silly cache add parsed spec Result {
+370 silly cache add   raw: '@lit/reactive-element@^2.0.4',
+370 silly cache add   scope: '@lit',
+370 silly cache add   name: '@lit/reactive-element',
+370 silly cache add   rawSpec: '^2.0.4',
+370 silly cache add   spec: '>=2.0.4 <3.0.0',
+370 silly cache add   type: 'range' }
+371 silly addNamed @lit/reactive-element@>=2.0.4 <3.0.0
+372 verbose addNamed ">=2.0.4 <3.0.0" is a valid semver range for @lit/reactive-element
+373 silly addNameRange { name: '@lit/reactive-element',
+373 silly addNameRange   range: '>=2.0.4 <3.0.0',
+373 silly addNameRange   hasData: false }
+374 silly mapToRegistry name @lit/reactive-element
+375 silly mapToRegistry scope (from package name) @lit
+376 verbose mapToRegistry no registry URL found in name for scope @lit
+377 silly mapToRegistry using default registry
+378 silly mapToRegistry registry https://registry.npmjs.org/
+379 silly mapToRegistry data Result {
+379 silly mapToRegistry   raw: '@lit/reactive-element',
+379 silly mapToRegistry   scope: '@lit',
+379 silly mapToRegistry   name: '@lit/reactive-element',
+379 silly mapToRegistry   rawSpec: '',
+379 silly mapToRegistry   spec: 'latest',
+379 silly mapToRegistry   type: 'tag' }
+380 silly mapToRegistry uri https://registry.npmjs.org/@lit%2freactive-element
+381 verbose addNameRange registry:https://registry.npmjs.org/@lit%2freactive-element not in flight; fetching
+382 silly cache add parsed spec Result {
+382 silly cache add   raw: 'lit-element@^4.0.4',
+382 silly cache add   scope: null,
+382 silly cache add   name: 'lit-element',
+382 silly cache add   rawSpec: '^4.0.4',
+382 silly cache add   spec: '>=4.0.4 <5.0.0',
+382 silly cache add   type: 'range' }
+383 silly addNamed lit-element@>=4.0.4 <5.0.0
+384 verbose addNamed ">=4.0.4 <5.0.0" is a valid semver range for lit-element
+385 silly addNameRange { name: 'lit-element', range: '>=4.0.4 <5.0.0', hasData: false }
+386 silly mapToRegistry name lit-element
+387 silly mapToRegistry using default registry
+388 silly mapToRegistry registry https://registry.npmjs.org/
+389 silly mapToRegistry data Result {
+389 silly mapToRegistry   raw: 'lit-element',
+389 silly mapToRegistry   scope: null,
+389 silly mapToRegistry   name: 'lit-element',
+389 silly mapToRegistry   rawSpec: '',
+389 silly mapToRegistry   spec: 'latest',
+389 silly mapToRegistry   type: 'tag' }
+390 silly mapToRegistry uri https://registry.npmjs.org/lit-element
+391 verbose addNameRange registry:https://registry.npmjs.org/lit-element not in flight; fetching
+392 silly cache add args [ 'lit-html@^3.1.2', null ]
+393 verbose cache add spec lit-html@^3.1.2
+394 silly cache add parsed spec Result {
+394 silly cache add   raw: 'lit-html@^3.1.2',
+394 silly cache add   scope: null,
+394 silly cache add   name: 'lit-html',
+394 silly cache add   rawSpec: '^3.1.2',
+394 silly cache add   spec: '>=3.1.2 <4.0.0',
+394 silly cache add   type: 'range' }
+395 silly addNamed lit-html@>=3.1.2 <4.0.0
+396 verbose addNamed ">=3.1.2 <4.0.0" is a valid semver range for lit-html
+397 silly addNameRange { name: 'lit-html', range: '>=3.1.2 <4.0.0', hasData: false }
+398 silly mapToRegistry name lit-html
+399 silly mapToRegistry using default registry
+400 silly mapToRegistry registry https://registry.npmjs.org/
+401 silly mapToRegistry data Result {
+401 silly mapToRegistry   raw: 'lit-html',
+401 silly mapToRegistry   scope: null,
+401 silly mapToRegistry   name: 'lit-html',
+401 silly mapToRegistry   rawSpec: '',
+401 silly mapToRegistry   spec: 'latest',
+401 silly mapToRegistry   type: 'tag' }
+402 silly mapToRegistry uri https://registry.npmjs.org/lit-html
+403 verbose addNameRange registry:https://registry.npmjs.org/lit-html not in flight; fetching
+404 verbose request uri https://registry.npmjs.org/@lit%2freactive-element
+405 verbose request no auth needed
+406 info attempt registry request try #1 at 20:15:52
+407 verbose etag W/"64dd9c260218e67dcebbb52fde372301"
+408 verbose lastModified Wed, 31 Jan 2024 19:49:54 GMT
+409 http request GET https://registry.npmjs.org/@lit%2freactive-element
+410 verbose request uri https://registry.npmjs.org/lit-element
+411 verbose request no auth needed
+412 info attempt registry request try #1 at 20:15:52
+413 verbose etag W/"a4884a34bfa8df5af3adcb91a0cd7fdf"
+414 verbose lastModified Mon, 15 Apr 2024 23:16:02 GMT
+415 http request GET https://registry.npmjs.org/lit-element
+416 verbose request uri https://registry.npmjs.org/lit-html
+417 verbose request no auth needed
+418 info attempt registry request try #1 at 20:15:52
+419 verbose etag W/"2bc25a067b943b9e35fd79462d861819"
+420 verbose lastModified Mon, 15 Apr 2024 23:16:03 GMT
+421 http request GET https://registry.npmjs.org/lit-html
+422 http 304 https://registry.npmjs.org/@lit%2freactive-element
+423 verbose headers { date: 'Tue, 07 May 2024 01:15:52 GMT',
+423 verbose headers   connection: 'keep-alive',
+423 verbose headers   'cf-ray': '87fd5c82ee9f6b27-DFW',
+423 verbose headers   'cf-cache-status': 'HIT',
+423 verbose headers   age: '74',
+423 verbose headers   'cache-control': 'public, max-age=300',
+423 verbose headers   etag: '"64dd9c260218e67dcebbb52fde372301"',
+423 verbose headers   'last-modified': 'Wed, 31 Jan 2024 19:49:54 GMT',
+423 verbose headers   vary: 'Accept-Encoding',
+423 verbose headers   server: 'cloudflare' }
+424 silly get cb [ 304,
+424 silly get   { date: 'Tue, 07 May 2024 01:15:52 GMT',
+424 silly get     connection: 'keep-alive',
+424 silly get     'cf-ray': '87fd5c82ee9f6b27-DFW',
+424 silly get     'cf-cache-status': 'HIT',
+424 silly get     age: '74',
+424 silly get     'cache-control': 'public, max-age=300',
+424 silly get     etag: '"64dd9c260218e67dcebbb52fde372301"',
+424 silly get     'last-modified': 'Wed, 31 Jan 2024 19:49:54 GMT',
+424 silly get     vary: 'Accept-Encoding',
+424 silly get     server: 'cloudflare' } ]
+425 verbose etag https://registry.npmjs.org/@lit%2freactive-element from cache
+426 verbose get saving @lit/reactive-element to /Users/idscomercial/.npm/registry.npmjs.org/_40lit_252freactive-element/.cache.json
+427 verbose correctMkdir /Users/idscomercial/.npm correctMkdir not in flight; initializing
+428 silly addNameRange number 2 { name: '@lit/reactive-element',
+428 silly addNameRange   range: '>=2.0.4 <3.0.0',
+428 silly addNameRange   hasData: true }
+429 silly addNameRange versions [ '@lit/reactive-element',
+429 silly addNameRange   [ '1.0.0-pre.1',
+429 silly addNameRange     '1.0.0-pre.2',
+429 silly addNameRange     '1.0.0-pre.3',
+429 silly addNameRange     '1.0.0-rc.1',
+429 silly addNameRange     '1.0.0-rc.2',
+429 silly addNameRange     '1.0.0-rc.3',
+429 silly addNameRange     '1.0.0-rc.4',
+429 silly addNameRange     '1.0.0',
+429 silly addNameRange     '1.0.1',
+429 silly addNameRange     '1.0.2',
+429 silly addNameRange     '1.1.0',
+429 silly addNameRange     '1.1.1',
+429 silly addNameRange     '1.1.2',
+429 silly addNameRange     '1.2.0',
+429 silly addNameRange     '1.2.1',
+429 silly addNameRange     '1.2.2',
+429 silly addNameRange     '1.2.3',
+429 silly addNameRange     '1.3.0',
+429 silly addNameRange     '1.3.1',
+429 silly addNameRange     '1.3.2',
+429 silly addNameRange     '1.3.3',
+429 silly addNameRange     '1.3.4',
+429 silly addNameRange     '1.4.0-next.0',
+429 silly addNameRange     '1.4.0-next.1',
+429 silly addNameRange     '1.4.0',
+429 silly addNameRange     '1.4.1',
+429 silly addNameRange     '1.4.2',
+429 silly addNameRange     '1.5.0',
+429 silly addNameRange     '1.6.0',
+429 silly addNameRange     '1.6.1',
+429 silly addNameRange     '2.0.0-pre.0',
+429 silly addNameRange     '1.6.2',
+429 silly addNameRange     '1.6.3',
+429 silly addNameRange     '2.0.0-pre.1',
+429 silly addNameRange     '2.0.0',
+429 silly addNameRange     '2.0.1',
+429 silly addNameRange     '2.0.2',
+429 silly addNameRange     '2.0.3',
+429 silly addNameRange     '2.0.4' ] ]
+430 silly addNamed @lit/reactive-element@2.0.4
+431 verbose addNamed "2.0.4" is a plain semver version for @lit/reactive-element
+432 silly cache afterAdd @lit/reactive-element@2.0.4
+433 verbose afterAdd /Users/idscomercial/.npm/@lit/reactive-element/2.0.4/package/package.json not in flight; writing
+434 verbose correctMkdir /Users/idscomercial/.npm correctMkdir not in flight; initializing
+435 verbose afterAdd /Users/idscomercial/.npm/@lit/reactive-element/2.0.4/package/package.json written
+436 http 304 https://registry.npmjs.org/lit-html
+437 verbose headers { date: 'Tue, 07 May 2024 01:15:52 GMT',
+437 verbose headers   connection: 'keep-alive',
+437 verbose headers   'cf-ray': '87fd5c847e9e6c49-DFW',
+437 verbose headers   'cf-cache-status': 'HIT',
+437 verbose headers   age: '87',
+437 verbose headers   'cache-control': 'public, max-age=300',
+437 verbose headers   etag: '"2bc25a067b943b9e35fd79462d861819"',
+437 verbose headers   'last-modified': 'Mon, 15 Apr 2024 23:16:03 GMT',
+437 verbose headers   vary: 'Accept-Encoding',
+437 verbose headers   server: 'cloudflare' }
+438 silly get cb [ 304,
+438 silly get   { date: 'Tue, 07 May 2024 01:15:52 GMT',
+438 silly get     connection: 'keep-alive',
+438 silly get     'cf-ray': '87fd5c847e9e6c49-DFW',
+438 silly get     'cf-cache-status': 'HIT',
+438 silly get     age: '87',
+438 silly get     'cache-control': 'public, max-age=300',
+438 silly get     etag: '"2bc25a067b943b9e35fd79462d861819"',
+438 silly get     'last-modified': 'Mon, 15 Apr 2024 23:16:03 GMT',
+438 silly get     vary: 'Accept-Encoding',
+438 silly get     server: 'cloudflare' } ]
+439 verbose etag https://registry.npmjs.org/lit-html from cache
+440 verbose get saving lit-html to /Users/idscomercial/.npm/registry.npmjs.org/lit-html/.cache.json
+441 verbose correctMkdir /Users/idscomercial/.npm correctMkdir not in flight; initializing
+442 silly addNameRange number 2 { name: 'lit-html', range: '>=3.1.2 <4.0.0', hasData: true }
+443 silly addNameRange versions [ 'lit-html',
+443 silly addNameRange   [ '0.1.0',
+443 silly addNameRange     '0.2.0',
+443 silly addNameRange     '0.2.1',
+443 silly addNameRange     '0.2.2',
+443 silly addNameRange     '0.2.3',
+443 silly addNameRange     '0.2.4',
+443 silly addNameRange     '0.2.5',
+443 silly addNameRange     '0.2.6',
+443 silly addNameRange     '0.3.0',
+443 silly addNameRange     '0.4.0',
+443 silly addNameRange     '0.5.0',
+443 silly addNameRange     '0.6.0-pre.1',
+443 silly addNameRange     '0.6.0-pre.2',
+443 silly addNameRange     '0.6.0-pre.3',
+443 silly addNameRange     '0.6.0',
+443 silly addNameRange     '0.7.0',
+443 silly addNameRange     '0.7.1',
+443 silly addNameRange     '0.8.0-pre.1',
+443 silly addNameRange     '0.8.0',
+443 silly addNameRange     '0.9.0',
+443 silly addNameRange     '0.10.0',
+443 silly addNameRange     '0.10.1',
+443 silly addNameRange     '0.10.2',
+443 silly addNameRange     '0.11.0-dev.1',
+443 silly addNameRange     '0.11.0-dev.2',
+443 silly addNameRange     '0.11.0-dev.3',
+443 silly addNameRange     '0.11.0',
+443 silly addNameRange     '0.11.1',
+443 silly addNameRange     '0.11.2',
+443 silly addNameRange     '0.11.3',
+443 silly addNameRange     '0.11.4',
+443 silly addNameRange     '0.12.0',
+443 silly addNameRange     '0.13.0',
+443 silly addNameRange     '0.14.0',
+443 silly addNameRange     '1.0.0-rc.1',
+443 silly addNameRange     '1.0.0-rc.2',
+443 silly addNameRange     '1.0.0-dev.c8753bc',
+443 silly addNameRange     '1.0.0',
+443 silly addNameRange     '1.0.1-dev.58f394e',
+443 silly addNameRange     '1.1.0',
+443 silly addNameRange     '1.1.1',
+443 silly addNameRange     '1.1.2',
+443 silly addNameRange     '1.2.0-pre.1',
+443 silly addNameRange     '1.2.0',
+443 silly addNameRange     '1.2.1',
+443 silly addNameRange     '1.3.0-pre.1',
+443 silly addNameRange     '1.3.0',
+443 silly addNameRange     '2.0.0-pre.1',
+443 silly addNameRange     '2.0.0-pre.2',
+443 silly addNameRange     '2.0.0-pre.3',
+443 silly addNameRange     '2.0.0-pre.4',
+443 silly addNameRange     '2.0.0-pre.5',
+443 silly addNameRange     '2.0.0-pre.6',
+443 silly addNameRange     '2.0.0-pre.7',
+443 silly addNameRange     '2.0.0-rc.1',
+443 silly addNameRange     '2.0.0-rc.2',
+443 silly addNameRange     '1.4.0',
+443 silly addNameRange     '1.4.1',
+443 silly addNameRange     '2.0.0-rc.3',
+443 silly addNameRange     '2.0.0-rc.4',
+443 silly addNameRange     '2.0.0-rc.5',
+443 silly addNameRange     '2.0.0',
+443 silly addNameRange     '2.0.1',
+443 silly addNameRange     '2.0.2',
+443 silly addNameRange     '2.1.0',
+443 silly addNameRange     '2.1.1',
+443 silly addNameRange     '2.1.2',
+443 silly addNameRange     '2.1.3',
+443 silly addNameRange     '2.2.0',
+443 silly addNameRange     '2.2.1',
+443 silly addNameRange     '2.2.2',
+443 silly addNameRange     '2.2.3',
+443 silly addNameRange     '2.2.4',
+443 silly addNameRange     '2.2.5',
+443 silly addNameRange     '2.2.6',
+443 silly addNameRange     '2.2.7',
+443 silly addNameRange     '2.3.0-next.0',
+443 silly addNameRange     '2.3.0-next.1',
+443 silly addNameRange     '2.3.0',
+443 silly addNameRange     '2.3.1',
+443 silly addNameRange     '2.4.0',
+443 silly addNameRange     '2.5.0',
+443 silly addNameRange     '2.6.0',
+443 silly addNameRange     '2.6.1',
+443 silly addNameRange     '2.7.0',
+443 silly addNameRange     '2.7.1',
+443 silly addNameRange     '2.7.2',
+443 silly addNameRange     '2.7.3',
+443 silly addNameRange     '3.0.0-pre.0',
+443 silly addNameRange     '2.7.4',
+443 silly addNameRange     '2.7.5',
+443 silly addNameRange     '2.8.0',
+443 silly addNameRange     '3.0.0-pre.1',
+443 silly addNameRange     '3.0.0',
+443 silly addNameRange     '3.0.1',
+443 silly addNameRange     '3.0.2',
+443 silly addNameRange     '3.1.0',
+443 silly addNameRange     '3.1.1',
+443 silly addNameRange     '3.1.2',
+443 silly addNameRange     '3.1.3' ] ]
+444 silly addNamed lit-html@3.1.3
+445 verbose addNamed "3.1.3" is a plain semver version for lit-html
+446 silly cache afterAdd lit-html@3.1.3
+447 verbose afterAdd /Users/idscomercial/.npm/lit-html/3.1.3/package/package.json not in flight; writing
+448 verbose correctMkdir /Users/idscomercial/.npm correctMkdir not in flight; initializing
+449 verbose afterAdd /Users/idscomercial/.npm/lit-html/3.1.3/package/package.json written
+450 http 304 https://registry.npmjs.org/lit-element
+451 verbose headers { date: 'Tue, 07 May 2024 01:15:52 GMT',
+451 verbose headers   connection: 'keep-alive',
+451 verbose headers   'cf-ray': '87fd5c8479016bcb-DFW',
+451 verbose headers   'cf-cache-status': 'REVALIDATED',
+451 verbose headers   'cache-control': 'public, max-age=300',
+451 verbose headers   etag: '"a4884a34bfa8df5af3adcb91a0cd7fdf"',
+451 verbose headers   'last-modified': 'Mon, 15 Apr 2024 23:16:02 GMT',
+451 verbose headers   vary: 'Accept-Encoding',
+451 verbose headers   server: 'cloudflare' }
+452 silly get cb [ 304,
+452 silly get   { date: 'Tue, 07 May 2024 01:15:52 GMT',
+452 silly get     connection: 'keep-alive',
+452 silly get     'cf-ray': '87fd5c8479016bcb-DFW',
+452 silly get     'cf-cache-status': 'REVALIDATED',
+452 silly get     'cache-control': 'public, max-age=300',
+452 silly get     etag: '"a4884a34bfa8df5af3adcb91a0cd7fdf"',
+452 silly get     'last-modified': 'Mon, 15 Apr 2024 23:16:02 GMT',
+452 silly get     vary: 'Accept-Encoding',
+452 silly get     server: 'cloudflare' } ]
+453 verbose etag https://registry.npmjs.org/lit-element from cache
+454 verbose get saving lit-element to /Users/idscomercial/.npm/registry.npmjs.org/lit-element/.cache.json
+455 verbose correctMkdir /Users/idscomercial/.npm correctMkdir not in flight; initializing
+456 silly addNameRange number 2 { name: 'lit-element', range: '>=4.0.4 <5.0.0', hasData: true }
+457 silly addNameRange versions [ 'lit-element',
+457 silly addNameRange   [ '1.0.0',
+457 silly addNameRange     '0.1.0',
+457 silly addNameRange     '0.2.0',
+457 silly addNameRange     '0.2.1',
+457 silly addNameRange     '0.2.2',
+457 silly addNameRange     '0.2.3',
+457 silly addNameRange     '0.2.4',
+457 silly addNameRange     '0.2.5',
+457 silly addNameRange     '0.4.0',
+457 silly addNameRange     '0.4.1',
+457 silly addNameRange     '0.4.2',
+457 silly addNameRange     '0.4.3',
+457 silly addNameRange     '0.4.4',
+457 silly addNameRange     '0.4.5',
+457 silly addNameRange     '0.4.6',
+457 silly addNameRange     '0.4.7',
+457 silly addNameRange     '0.4.8',
+457 silly addNameRange     '0.4.9',
+457 silly addNameRange     '0.4.10',
+457 silly addNameRange     '0.4.11',
+457 silly addNameRange     '0.4.12',
+457 silly addNameRange     '0.4.13',
+457 silly addNameRange     '0.5.0',
+457 silly addNameRange     '2.0.0-rc.1',
+457 silly addNameRange     '2.0.0-dev.ff4fefd',
+457 silly addNameRange     '2.0.0-rc.2',
+457 silly addNameRange     '2.0.0-rc-dev.23e305d',
+457 silly addNameRange     '2.0.0-rc.3',
+457 silly addNameRange     '2.0.0-dev.aa290cf',
+457 silly addNameRange     '2.0.0-dev.e620444',
+457 silly addNameRange     '2.0.0-rc.4',
+457 silly addNameRange     '2.0.0-dev.2cbe3e0',
+457 silly addNameRange     '2.0.0-rc.5',
+457 silly addNameRange     '2.0.0-dev.daf5276',
+457 silly addNameRange     '2.0.0-dev.486b2a4',
+457 silly addNameRange     '2.0.0-dev.2283329',
+457 silly addNameRange     '2.0.0',
+457 silly addNameRange     '2.0.1',
+457 silly addNameRange     '2.1.0',
+457 silly addNameRange     '2.2.0',
+457 silly addNameRange     '2.2.1',
+457 silly addNameRange     '2.3.0-pre.1',
+457 silly addNameRange     '2.3.0',
+457 silly addNameRange     '2.3.1',
+457 silly addNameRange     '2.4.0-pre.1',
+457 silly addNameRange     '2.4.0-pre.2',
+457 silly addNameRange     '2.4.0-pre.3',
+457 silly addNameRange     '2.4.0',
+457 silly addNameRange     '3.0.0-pre.1',
+457 silly addNameRange     '3.0.0-pre.2',
+457 silly addNameRange     '3.0.0-pre.3',
+457 silly addNameRange     '3.0.0-pre.4',
+457 silly addNameRange     '3.0.0-rc.1',
+457 silly addNameRange     '2.5.0',
+457 silly addNameRange     '2.5.1',
+457 silly addNameRange     '3.0.0-rc.2',
+457 silly addNameRange     '3.0.0-rc.3',
+457 silly addNameRange     '3.0.0-rc.4',
+457 silly addNameRange     '3.0.0',
+457 silly addNameRange     '3.0.1',
+457 silly addNameRange     '3.0.2',
+457 silly addNameRange     '3.1.0',
+457 silly addNameRange     '3.1.1',
+457 silly addNameRange     '3.1.2',
+457 silly addNameRange     '3.2.0',
+457 silly addNameRange     '3.2.1',
+457 silly addNameRange     '3.2.2',
+457 silly addNameRange     '3.2.3-next.0',
+457 silly addNameRange     '3.2.3-next.1',
+457 silly addNameRange     '3.3.0',
+457 silly addNameRange     '3.3.1',
+457 silly addNameRange     '3.3.2',
+457 silly addNameRange     '4.0.0-pre.0',
+457 silly addNameRange     '3.3.3',
+457 silly addNameRange     '4.0.0-pre.1',
+457 silly addNameRange     '4.0.0',
+457 silly addNameRange     '4.0.1',
+457 silly addNameRange     '4.0.2',
+457 silly addNameRange     '4.0.3',
+457 silly addNameRange     '4.0.4',
+457 silly addNameRange     '4.0.5' ] ]
+458 silly addNamed lit-element@4.0.5
+459 verbose addNamed "4.0.5" is a plain semver version for lit-element
+460 silly cache afterAdd lit-element@4.0.5
+461 verbose afterAdd /Users/idscomercial/.npm/lit-element/4.0.5/package/package.json not in flight; writing
+462 verbose correctMkdir /Users/idscomercial/.npm correctMkdir not in flight; initializing
+463 verbose afterAdd /Users/idscomercial/.npm/lit-element/4.0.5/package/package.json written
+464 silly install resolved [ { name: '@lit/reactive-element',
+464 silly install resolved     version: '2.0.4',
+464 silly install resolved     publishConfig: { access: 'public' },
+464 silly install resolved     description: 'A simple low level base class for creating fast, lightweight web components',
+464 silly install resolved     license: 'BSD-3-Clause',
+464 silly install resolved     repository:
+464 silly install resolved      { type: 'git',
+464 silly install resolved        url: 'git+https://github.com/lit/lit.git',
+464 silly install resolved        directory: 'packages/reactive-element' },
+464 silly install resolved     author: { name: 'Google LLC' },
+464 silly install resolved     homepage: 'https://lit.dev/',
+464 silly install resolved     main: 'reactive-element.js',
+464 silly install resolved     module: 'reactive-element.js',
+464 silly install resolved     type: 'module',
+464 silly install resolved     exports:
+464 silly install resolved      { '.': [Object],
+464 silly install resolved        './css-tag.js': [Object],
+464 silly install resolved        './decorators.js': [Object],
+464 silly install resolved        './decorators/base.js': [Object],
+464 silly install resolved        './decorators/custom-element.js': [Object],
+464 silly install resolved        './decorators/event-options.js': [Object],
+464 silly install resolved        './decorators/property.js': [Object],
+464 silly install resolved        './decorators/query-all.js': [Object],
+464 silly install resolved        './decorators/query-assigned-elements.js': [Object],
+464 silly install resolved        './decorators/query-assigned-nodes.js': [Object],
+464 silly install resolved        './decorators/query-async.js': [Object],
+464 silly install resolved        './decorators/query.js': [Object],
+464 silly install resolved        './decorators/state.js': [Object],
+464 silly install resolved        './polyfill-support.js': [Object],
+464 silly install resolved        './reactive-controller.js': [Object] },
+464 silly install resolved     scripts:
+464 silly install resolved      { build: 'wireit',
+464 silly install resolved        'build:ts': 'wireit',
+464 silly install resolved        'build:ts:std-decorators-tests': 'wireit',
+464 silly install resolved        'build:ts:types': 'wireit',
+464 silly install resolved        'build:rollup': 'wireit',
+464 silly install resolved        'build:babel': 'wireit',
+464 silly install resolved        'check-version': 'wireit',
+464 silly install resolved        checksize: 'wireit',
+464 silly install resolved        prepublishOnly: 'npm run check-version',
+464 silly install resolved        test: 'wireit',
+464 silly install resolved        'test:dev': 'wireit',
+464 silly install resolved        'test:prod': 'wireit',
+464 silly install resolved        'test:node': 'wireit',
+464 silly install resolved        'test:node-dev': 'wireit',
+464 silly install resolved        'test:node-dom-shim': 'wireit',
+464 silly install resolved        'test:node-dom-shim-dev': 'wireit' },
+464 silly install resolved     wireit:
+464 silly install resolved      { build: [Object],
+464 silly install resolved        'build:ts': [Object],
+464 silly install resolved        'build:ts:types': [Object],
+464 silly install resolved        'build:ts:std-decorators-tests': [Object],
+464 silly install resolved        'build:rollup': [Object],
+464 silly install resolved        'build:babel': [Object],
+464 silly install resolved        checksize: [Object],
+464 silly install resolved        'check-version': [Object],
+464 silly install resolved        test: [Object],
+464 silly install resolved        'test:dev': [Object],
+464 silly install resolved        'test:prod': [Object],
+464 silly install resolved        'test:node': [Object],
+464 silly install resolved        'test:node-dev': [Object],
+464 silly install resolved        'test:node-dom-shim': [Object],
+464 silly install resolved        'test:node-dom-shim-dev': [Object] },
+464 silly install resolved     dependencies: { '@lit-labs/ssr-dom-shim': '^1.2.0' },
+464 silly install resolved     devDependencies:
+464 silly install resolved      { '@babel/cli': '^7.22.10',
+464 silly install resolved        '@babel/core': '^7.22.11',
+464 silly install resolved        '@babel/plugin-proposal-class-properties': '^7.18.6',
+464 silly install resolved        '@babel/plugin-proposal-decorators': '^7.22.10',
+464 silly install resolved        '@babel/plugin-transform-class-static-block': '^7.22.11',
+464 silly install resolved        '@babel/plugin-transform-typescript': '^7.22.11',
+464 silly install resolved        '@lit-internal/scripts': '^1.0.1',
+464 silly install resolved        '@webcomponents/shadycss': '^1.8.0',
+464 silly install resolved        '@webcomponents/template': '^1.4.4',
+464 silly install resolved        '@webcomponents/webcomponentsjs': '^2.8.0' },
+464 silly install resolved     typings: 'reactive-element.d.ts',
+464 silly install resolved     directories: { test: 'test' },
+464 silly install resolved     _id: '@lit/reactive-element@2.0.4',
+464 silly install resolved     gitHead: 'b4e3c0ef472b89aee09c1ecf194e2bbb9b1441f7',
+464 silly install resolved     bugs: { url: 'https://github.com/lit/lit/issues' },
+464 silly install resolved     _nodeVersion: '20.11.0',
+464 silly install resolved     _npmVersion: '10.2.4',
+464 silly install resolved     dist:
+464 silly install resolved      { integrity: 'sha512-GFn91inaUa2oHLak8awSIigYz0cU0Payr1rcFsrkf5OJ5eSPxElyZfKh0f2p9FsTiZWXQdWGJeXZICEfXXYSXQ==',
+464 silly install resolved        shasum: '8f2ed950a848016383894a26180ff06c56ae001b',
+464 silly install resolved        tarball: 'https://registry.npmjs.org/@lit/reactive-element/-/reactive-element-2.0.4.tgz',
+464 silly install resolved        fileCount: 179,
+464 silly install resolved        unpackedSize: 837410,
+464 silly install resolved        signatures: [Object] },
+464 silly install resolved     _npmUser: { name: 'lit-robot', email: 'lit-robot@google.com' },
+464 silly install resolved     maintainers:
+464 silly install resolved      [ [Object],
+464 silly install resolved        [Object],
+464 silly install resolved        [Object],
+464 silly install resolved        [Object],
+464 silly install resolved        [Object],
+464 silly install resolved        [Object],
+464 silly install resolved        [Object],
+464 silly install resolved        [Object],
+464 silly install resolved        [Object] ],
+464 silly install resolved     _npmOperationalInternal:
+464 silly install resolved      { host: 's3://npm-registry-packages',
+464 silly install resolved        tmp: 'tmp/reactive-element_2.0.4_1706730592108_0.3442782010886911' },
+464 silly install resolved     _hasShrinkwrap: false,
+464 silly install resolved     _shasum: '8f2ed950a848016383894a26180ff06c56ae001b',
+464 silly install resolved     _resolved: 'https://registry.npmjs.org/@lit/reactive-element/-/reactive-element-2.0.4.tgz',
+464 silly install resolved     _from: '@lit/reactive-element@>=2.0.4 <3.0.0',
+464 silly install resolved     readme: 'ERROR: No README data found!' },
+464 silly install resolved   { name: 'lit-html',
+464 silly install resolved     version: '3.1.3',
+464 silly install resolved     description: 'HTML templates literals in JavaScript',
+464 silly install resolved     license: 'BSD-3-Clause',
+464 silly install resolved     repository:
+464 silly install resolved      { type: 'git',
+464 silly install resolved        url: 'git+https://github.com/lit/lit.git',
+464 silly install resolved        directory: 'packages/lit-html' },
+464 silly install resolved     author: { name: 'Google LLC' },
+464 silly install resolved     homepage: 'https://lit.dev/',
+464 silly install resolved     main: 'lit-html.js',
+464 silly install resolved     type: 'module',
+464 silly install resolved     exports:
+464 silly install resolved      { '.': [Object],
+464 silly install resolved        './async-directive.js': [Object],
+464 silly install resolved        './directive-helpers.js': [Object],
+464 silly install resolved        './directive.js': [Object],
+464 silly install resolved        './directives/async-append.js': [Object],
+464 silly install resolved        './directives/async-replace.js': [Object],
+464 silly install resolved        './directives/cache.js': [Object],
+464 silly install resolved        './directives/choose.js': [Object],
+464 silly install resolved        './directives/class-map.js': [Object],
+464 silly install resolved        './directives/guard.js': [Object],
+464 silly install resolved        './directives/if-defined.js': [Object],
+464 silly install resolved        './directives/join.js': [Object],
+464 silly install resolved        './directives/keyed.js': [Object],
+464 silly install resolved        './directives/live.js': [Object],
+464 silly install resolved        './directives/map.js': [Object],
+464 silly install resolved        './directives/range.js': [Object],
+464 silly install resolved        './directives/ref.js': [Object],
+464 silly install resolved        './directives/repeat.js': [Object],
+464 silly install resolved        './directives/style-map.js': [Object],
+464 silly install resolved        './directives/template-content.js': [Object],
+464 silly install resolved        './directives/unsafe-html.js': [Object],
+464 silly install resolved        './directives/unsafe-svg.js': [Object],
+464 silly install resolved        './directives/until.js': [Object],
+464 silly install resolved        './directives/when.js': [Object],
+464 silly install resolved        './polyfill-support.js': [Object],
+464 silly install resolved        './private-ssr-support.js': [Object],
+464 silly install resolved        './static.js': [Object],
+464 silly install resolved        './is-server.js': [Object] },
+464 silly install resolved     scripts:
+464 silly install resolved      { build: 'wireit',
+464 silly install resolved        'build:ts': 'wireit',
+464 silly install resolved        'build:ts:types': 'wireit',
+464 silly install resolved        'build:compiled:ts:tests': 'wireit',
+464 silly install resolved        'build:rollup': 'wireit',
+464 silly install resolved        'build:version-stability-test': 'wireit',
+464 silly install resolved        'check-version': 'wireit',
+464 silly install resolved        checksize: 'wireit',
+464 silly install resolved        prepublishOnly: 'npm run check-version',
+464 silly install resolved        test: 'wireit',
+464 silly install resolved        'test:dev': 'wireit',
+464 silly install resolved        'test:prod': 'wireit',
+464 silly install resolved        'test:node': 'wireit',
+464 silly install resolved        'test:node-dev': 'wireit',
+464 silly install resolved        'test:dev:compiled': 'wireit' },
+464 silly install resolved     wireit:
+464 silly install resolved      { build: [Object],
+464 silly install resolved        'build:ts': [Object],
+464 silly install resolved        'build:ts:types': [Object],
+464 silly install resolved        'build:compiled:ts:tests': [Object],
+464 silly install resolved        'build:rollup': [Object],
+464 silly install resolved        'build:version-stability-test': [Object],
+464 silly install resolved        checksize: [Object],
+464 silly install resolved        'check-version': [Object],
+464 silly install resolved        test: [Object],
+464 silly install resolved        'test:dev': [Object],
+464 silly install resolved        'test:prod': [Object],
+464 silly install resolved        'test:node': [Object],
+464 silly install resolved        'test:node-dev': [Object],
+464 silly install resolved        'test:dev:compiled': [Object] },
+464 silly install resolved     dependencies: { '@types/trusted-types': '^2.0.2' },
+464 silly install resolved     devDependencies:
+464 silly install resolved      { '@lit-internal/scripts': '^1.0.1',
+464 silly install resolved        '@lit-labs/testing': '^0.2.2',
+464 silly install resolved        '@webcomponents/shadycss': '^1.8.0',
+464 silly install resolved        '@webcomponents/template': '^1.4.4',
+464 silly install resolved        '@webcomponents/webcomponentsjs': '^2.8.0' },
+464 silly install resolved     typings: 'lit-html.d.ts',
+464 silly install resolved     directories: { test: 'test' },
+464 silly install resolved     _id: 'lit-html@3.1.3',
+464 silly install resolved     gitHead: '700799b9ad4025412796153e09eb048d19957ac0',
+464 silly install resolved     bugs: { url: 'https://github.com/lit/lit/issues' },
+464 silly install resolved     _nodeVersion: '20.12.1',
+464 silly install resolved     _npmVersion: '10.5.0',
+464 silly install resolved     dist:
+464 silly install resolved      { integrity: 'sha512-FwIbqDD8O/8lM4vUZ4KvQZjPPNx7V1VhT7vmRB8RBAO0AU6wuTVdoXiu2CivVjEGdugvcbPNBLtPE1y0ifplHA==',
+464 silly install resolved        shasum: 'ae2e9fee0258d0a1b5d7b86c87da51117e4f911b',
+464 silly install resolved        tarball: 'https://registry.npmjs.org/lit-html/-/lit-html-3.1.3.tgz',
+464 silly install resolved        fileCount: 351,
+464 silly install resolved        unpackedSize: 1680687,
+464 silly install resolved        signatures: [Object] },
+464 silly install resolved     _npmUser: { name: 'lit-robot', email: 'lit-robot@google.com' },
+464 silly install resolved     maintainers:
+464 silly install resolved      [ [Object],
+464 silly install resolved        [Object],
+464 silly install resolved        [Object],
+464 silly install resolved        [Object],
+464 silly install resolved        [Object],
+464 silly install resolved        [Object],
+464 silly install resolved        [Object],
+464 silly install resolved        [Object],
+464 silly install resolved        [Object],
+464 silly install resolved        [Object],
+464 silly install resolved        [Object],
+464 silly install resolved        [Object],
+464 silly install resolved        [Object],
+464 silly install resolved        [Object] ],
+464 silly install resolved     _npmOperationalInternal:
+464 silly install resolved      { host: 's3://npm-registry-packages',
+464 silly install resolved        tmp: 'tmp/lit-html_3.1.3_1713222960670_0.30389328425094586' },
+464 silly install resolved     _hasShrinkwrap: false,
+464 silly install resolved     _shasum: 'ae2e9fee0258d0a1b5d7b86c87da51117e4f911b',
+464 silly install resolved     _resolved: 'https://registry.npmjs.org/lit-html/-/lit-html-3.1.3.tgz',
+464 silly install resolved     _from: 'lit-html@>=3.1.2 <4.0.0',
+464 silly install resolved     readme: 'ERROR: No README data found!' },
+464 silly install resolved   { name: 'lit-element',
+464 silly install resolved     version: '4.0.5',
+464 silly install resolved     publishConfig: { access: 'public' },
+464 silly install resolved     description: 'A simple base class for creating fast, lightweight web components',
+464 silly install resolved     license: 'BSD-3-Clause',
+464 silly install resolved     repository:
+464 silly install resolved      { type: 'git',
+464 silly install resolved        url: 'git+https://github.com/lit/lit.git',
+464 silly install resolved        directory: 'packages/lit-element' },
+464 silly install resolved     author: { name: 'Google LLC' },
+464 silly install resolved     homepage: 'https://lit.dev/',
+464 silly install resolved     main: 'index.js',
+464 silly install resolved     module: 'index.js',
+464 silly install resolved     types: 'index.d.ts',
+464 silly install resolved     type: 'module',
+464 silly install resolved     exports:
+464 silly install resolved      { '.': [Object],
+464 silly install resolved        './decorators.js': [Object],
+464 silly install resolved        './decorators/custom-element.js': [Object],
+464 silly install resolved        './decorators/event-options.js': [Object],
+464 silly install resolved        './decorators/property.js': [Object],
+464 silly install resolved        './decorators/query-all.js': [Object],
+464 silly install resolved        './decorators/query-assigned-elements.js': [Object],
+464 silly install resolved        './decorators/query-assigned-nodes.js': [Object],
+464 silly install resolved        './decorators/query-async.js': [Object],
+464 silly install resolved        './decorators/query.js': [Object],
+464 silly install resolved        './decorators/state.js': [Object],
+464 silly install resolved        './lit-element.js': [Object],
+464 silly install resolved        './polyfill-support.js': [Object],
+464 silly install resolved        './private-ssr-support.js': [Object] },
+464 silly install resolved     scripts:
+464 silly install resolved      { build: 'wireit',
+464 silly install resolved        'build:rollup': 'wireit',
+464 silly install resolved        'build:ts': 'wireit',
+464 silly install resolved        'build:ts:types': 'wireit',
+464 silly install resolved        'check-version': 'wireit',
+464 silly install resolved        checksize: 'wireit',
+464 silly install resolved        prepublishOnly: 'npm run check-version',
+464 silly install resolved        test: 'wireit',
+464 silly install resolved        'test:dev': 'wireit',
+464 silly install resolved        'test:prod': 'wireit',
+464 silly install resolved        'test:node': 'wireit' },
+464 silly install resolved     wireit:
+464 silly install resolved      { build: [Object],
+464 silly install resolved        'build:ts': [Object],
+464 silly install resolved        'build:ts:types': [Object],
+464 silly install resolved        'build:rollup': [Object],
+464 silly install resolved        checksize: [Object],
+464 silly install resolved        'check-version': [Object],
+464 silly install resolved        test: [Object],
+464 silly install resolved        'test:dev': [Object],
+464 silly install resolved        'test:prod': [Object],
+464 silly install resolved        'test:node': [Object] },
+464 silly install resolved     dependencies:
+464 silly install resolved      { '@lit-labs/ssr-dom-shim': '^1.2.0',
+464 silly install resolved        '@lit/reactive-element': '^2.0.4',
+464 silly install resolved        'lit-html': '^3.1.2' },
+464 silly install resolved     devDependencies:
+464 silly install resolved      { '@lit-internal/scripts': '^1.0.1',
+464 silly install resolved        '@lit-labs/testing': '^0.2.2',
+464 silly install resolved        '@webcomponents/shadycss': '^1.8.0',
+464 silly install resolved        '@webcomponents/template': '^1.4.4',
+464 silly install resolved        '@webcomponents/webcomponentsjs': '^2.8.0',
+464 silly install resolved        tslib: '^2.0.3' },
+464 silly install resolved     directories: { test: 'test' },
+464 silly install resolved     _id: 'lit-element@4.0.5',
+464 silly install resolved     gitHead: '700799b9ad4025412796153e09eb048d19957ac0',
+464 silly install resolved     bugs: { url: 'https://github.com/lit/lit/issues' },
+464 silly install resolved     _nodeVersion: '20.12.1',
+464 silly install resolved     _npmVersion: '10.5.0',
+464 silly install resolved     dist:
+464 silly install resolved      { integrity: 'sha512-iTWskWZEtn9SyEf4aBG6rKT8GABZMrTWop1+jopsEOgEcugcXJGKuX5bEbkq9qfzY+XB4MAgCaSPwnNpdsNQ3Q==',
+464 silly install resolved        shasum: 'f20cd8a6231eaf5358f7a6877ca6ea7628fa2015',
+464 silly install resolved        tarball: 'https://registry.npmjs.org/lit-element/-/lit-element-4.0.5.tgz',
+464 silly install resolved        fileCount: 115,
+464 silly install resolved        unpackedSize: 122296,
+464 silly install resolved        signatures: [Object] },
+464 silly install resolved     _npmUser: { name: 'lit-robot', email: 'lit-robot@google.com' },
+464 silly install resolved     maintainers:
+464 silly install resolved      [ [Object],
+464 silly install resolved        [Object],
+464 silly install resolved        [Object],
+464 silly install resolved        [Object],
+464 silly install resolved        [Object],
+464 silly install resolved        [Object],
+464 silly install resolved        [Object],
+464 silly install resolved        [Object],
+464 silly install resolved        [Object],
+464 silly install resolved        [Object],
+464 silly install resolved        [Object],
+464 silly install resolved        [Object],
+464 silly install resolved        [Object],
+464 silly install resolved        [Object] ],
+464 silly install resolved     _npmOperationalInternal:
+464 silly install resolved      { host: 's3://npm-registry-packages',
+464 silly install resolved        tmp: 'tmp/lit-element_4.0.5_1713222960398_0.3586234969733011' },
+464 silly install resolved     _hasShrinkwrap: false,
+464 silly install resolved     _shasum: 'f20cd8a6231eaf5358f7a6877ca6ea7628fa2015',
+464 silly install resolved     _resolved: 'https://registry.npmjs.org/lit-element/-/lit-element-4.0.5.tgz',
+464 silly install resolved     _from: 'lit-element@>=4.0.4 <5.0.0',
+464 silly install resolved     readme: 'ERROR: No README data found!' } ]
+465 info install @lit/reactive-element@2.0.4 into /Users/idscomercial/Desktop/ejercicioA/node_modules/lit
+466 info install lit-html@3.1.3 into /Users/idscomercial/Desktop/ejercicioA/node_modules/lit
+467 info install lit-element@4.0.5 into /Users/idscomercial/Desktop/ejercicioA/node_modules/lit
+468 info installOne @lit/reactive-element@2.0.4
+469 verbose installOne of @lit/reactive-element to /Users/idscomercial/Desktop/ejercicioA/node_modules/lit not in flight; installing
+470 verbose correctMkdir /Users/idscomercial/.npm/_locks correctMkdir not in flight; initializing
+471 info installOne lit-html@3.1.3
+472 verbose installOne of lit-html to /Users/idscomercial/Desktop/ejercicioA/node_modules/lit not in flight; installing
+473 verbose correctMkdir /Users/idscomercial/.npm/_locks correctMkdir not in flight; initializing
+474 info installOne lit-element@4.0.5
+475 verbose installOne of lit-element to /Users/idscomercial/Desktop/ejercicioA/node_modules/lit not in flight; installing
+476 verbose correctMkdir /Users/idscomercial/.npm/_locks correctMkdir not in flight; initializing
+477 verbose lock using /Users/idscomercial/.npm/_locks/lit-html-145eb1ad6e4bc0ba.lock for /Users/idscomercial/Desktop/ejercicioA/node_modules/lit/node_modules/lit-html
+478 verbose lock using /Users/idscomercial/.npm/_locks/lit-reactive-element-25dd75f26fe4c8ca.lock for /Users/idscomercial/Desktop/ejercicioA/node_modules/lit/node_modules/@lit/reactive-element
+479 silly install write writing lit-html 3.1.3 to /Users/idscomercial/Desktop/ejercicioA/node_modules/lit/node_modules/lit-html
+480 verbose lock using /Users/idscomercial/.npm/_locks/lit-element-f3d14b3568652231.lock for /Users/idscomercial/Desktop/ejercicioA/node_modules/lit/node_modules/lit-element
+481 silly install write writing @lit/reactive-element 2.0.4 to /Users/idscomercial/Desktop/ejercicioA/node_modules/lit/node_modules/@lit/reactive-element
+482 silly install write writing lit-element 4.0.5 to /Users/idscomercial/Desktop/ejercicioA/node_modules/lit/node_modules/lit-element
+483 verbose unbuild node_modules/lit/node_modules/lit-html
+484 verbose unbuild node_modules/lit/node_modules/@lit/reactive-element
+485 verbose unbuild node_modules/lit/node_modules/lit-element
+486 silly gentlyRm /Users/idscomercial/Desktop/ejercicioA/node_modules/lit/node_modules/lit-html is being purged from base /Users/idscomercial/Desktop/ejercicioA
+487 verbose gentlyRm don't care about contents; nuking /Users/idscomercial/Desktop/ejercicioA/node_modules/lit/node_modules/lit-html
+488 verbose tar unpack /Users/idscomercial/.npm/lit-html/3.1.3/package.tgz
+489 verbose tar unpacking to /Users/idscomercial/Desktop/ejercicioA/node_modules/lit/node_modules/lit-html
+490 silly gentlyRm /Users/idscomercial/Desktop/ejercicioA/node_modules/lit/node_modules/lit-html is being purged
+491 verbose gentlyRm don't care about contents; nuking /Users/idscomercial/Desktop/ejercicioA/node_modules/lit/node_modules/lit-html
+492 silly gentlyRm /Users/idscomercial/Desktop/ejercicioA/node_modules/lit/node_modules/@lit/reactive-element is being purged from base /Users/idscomercial/Desktop/ejercicioA
+493 verbose gentlyRm don't care about contents; nuking /Users/idscomercial/Desktop/ejercicioA/node_modules/lit/node_modules/@lit/reactive-element
+494 silly gentlyRm /Users/idscomercial/Desktop/ejercicioA/node_modules/lit/node_modules/lit-element is being purged from base /Users/idscomercial/Desktop/ejercicioA
+495 verbose gentlyRm don't care about contents; nuking /Users/idscomercial/Desktop/ejercicioA/node_modules/lit/node_modules/lit-element
+496 silly gunzTarPerm modes [ '755', '644' ]
+497 verbose tar unpack /Users/idscomercial/.npm/@lit/reactive-element/2.0.4/package.tgz
+498 verbose tar unpacking to /Users/idscomercial/Desktop/ejercicioA/node_modules/lit/node_modules/@lit/reactive-element
+499 silly gentlyRm /Users/idscomercial/Desktop/ejercicioA/node_modules/lit/node_modules/@lit/reactive-element is being purged
+500 verbose gentlyRm don't care about contents; nuking /Users/idscomercial/Desktop/ejercicioA/node_modules/lit/node_modules/@lit/reactive-element
+501 verbose tar unpack /Users/idscomercial/.npm/lit-element/4.0.5/package.tgz
+502 verbose tar unpacking to /Users/idscomercial/Desktop/ejercicioA/node_modules/lit/node_modules/lit-element
+503 silly gentlyRm /Users/idscomercial/Desktop/ejercicioA/node_modules/lit/node_modules/lit-element is being purged
+504 verbose gentlyRm don't care about contents; nuking /Users/idscomercial/Desktop/ejercicioA/node_modules/lit/node_modules/lit-element
+505 silly gunzTarPerm modes [ '755', '644' ]
+506 silly gunzTarPerm modes [ '755', '644' ]
+507 silly gunzTarPerm extractEntry LICENSE
+508 silly gunzTarPerm extractEntry LICENSE
+509 silly gunzTarPerm extractEntry LICENSE
+510 silly gunzTarPerm extractEntry development/directives/async-append.js
+511 silly gunzTarPerm extractEntry directives/async-append.js
+512 silly gunzTarPerm extractEntry decorators/base.js
+513 silly gunzTarPerm extractEntry development/decorators/base.js
+514 silly gunzTarPerm extractEntry decorators/custom-element.js
+515 silly gunzTarPerm extractEntry development/decorators/custom-element.js
+516 silly gunzTarPerm extractEntry node/decorators/base.js
+517 silly gunzTarPerm extractEntry node/development/decorators/base.js
+518 silly gunzTarPerm extractEntry decorators.js
+519 silly gunzTarPerm extractEntry development/decorators.js
+520 silly gunzTarPerm extractEntry node/development/directives/async-append.js
+521 silly gunzTarPerm extractEntry node/directives/async-append.js
+522 silly gunzTarPerm extractEntry css-tag.js
+523 silly gunzTarPerm extractEntry development/css-tag.js
+524 silly gunzTarPerm extractEntry decorators/event-options.js
+525 silly gunzTarPerm extractEntry development/decorators/event-options.js
+526 silly gunzTarPerm extractEntry async-directive.js
+527 silly gunzTarPerm extractEntry development/async-directive.js
+528 silly gunzTarPerm extractEntry development/index.js
+529 silly gunzTarPerm extractEntry index.js
+530 silly gunzTarPerm extractEntry node/css-tag.js
+531 silly gunzTarPerm extractEntry node/async-directive.js
+532 silly gunzTarPerm extractEntry development/lit-element.js
+533 silly gunzTarPerm extractEntry lit-element.js
+534 silly gunzTarPerm extractEntry development/polyfill-support.js
+535 silly gunzTarPerm extractEntry polyfill-support.js
+536 silly gunzTarPerm extractEntry development/private-ssr-support.js
+537 silly gunzTarPerm extractEntry private-ssr-support.js
+538 silly gunzTarPerm extractEntry decorators/property.js
+539 silly gunzTarPerm extractEntry development/decorators/property.js
+540 silly gunzTarPerm extractEntry decorators/query-all.js
+541 silly gunzTarPerm extractEntry development/decorators/query-all.js
+542 silly gunzTarPerm extractEntry decorators/query-assigned-elements.js
+543 silly gunzTarPerm extractEntry development/decorators/query-assigned-elements.js
+544 silly gunzTarPerm extractEntry decorators/query-assigned-nodes.js
+545 silly gunzTarPerm extractEntry development/decorators/query-assigned-nodes.js
+546 silly gunzTarPerm extractEntry decorators/query-async.js
+547 silly gunzTarPerm extractEntry development/decorators/query-async.js
+548 silly gunzTarPerm extractEntry decorators/query.js
+549 silly gunzTarPerm extractEntry development/decorators/query.js
+550 silly gunzTarPerm extractEntry decorators/state.js
+551 silly gunzTarPerm extractEntry development/decorators/state.js
+552 silly gunzTarPerm extractEntry package.json
+553 silly gunzTarPerm extractEntry decorators/custom-element.d.ts.map
+554 silly gunzTarPerm extractEntry development/decorators/custom-element.d.ts.map
+555 silly gunzTarPerm extractEntry decorators/custom-element.js.map
+556 silly gunzTarPerm extractEntry development/decorators/custom-element.js.map
+557 silly gunzTarPerm extractEntry decorators.d.ts.map
+558 silly gunzTarPerm extractEntry development/decorators.d.ts.map
+559 silly gunzTarPerm extractEntry decorators.js.map
+560 silly gunzTarPerm extractEntry development/decorators.js.map
+561 silly gunzTarPerm extractEntry decorators/event-options.d.ts.map
+562 silly gunzTarPerm extractEntry development/decorators/event-options.d.ts.map
+563 silly gunzTarPerm extractEntry decorators/event-options.js.map
+564 silly gunzTarPerm extractEntry development/decorators/event-options.js.map
+565 silly gunzTarPerm extractEntry development/index.d.ts.map
+566 silly gunzTarPerm extractEntry index.d.ts.map
+567 silly gunzTarPerm extractEntry development/index.js.map
+568 silly gunzTarPerm extractEntry index.js.map
+569 silly gunzTarPerm extractEntry development/lit-element.d.ts.map
+570 silly gunzTarPerm extractEntry lit-element.d.ts.map
+571 silly gunzTarPerm extractEntry development/lit-element.js.map
+572 silly gunzTarPerm extractEntry lit-element.js.map
+573 silly gunzTarPerm extractEntry development/polyfill-support.d.ts.map
+574 silly gunzTarPerm extractEntry polyfill-support.d.ts.map
+575 silly gunzTarPerm extractEntry development/polyfill-support.js.map
+576 silly gunzTarPerm extractEntry polyfill-support.js.map
+577 silly gunzTarPerm extractEntry development/private-ssr-support.d.ts.map
+578 silly gunzTarPerm extractEntry private-ssr-support.d.ts.map
+579 silly gunzTarPerm extractEntry development/private-ssr-support.js.map
+580 silly gunzTarPerm extractEntry private-ssr-support.js.map
+581 silly gunzTarPerm extractEntry decorators/property.d.ts.map
+582 silly gunzTarPerm extractEntry development/decorators/property.d.ts.map
+583 silly gunzTarPerm extractEntry decorators/property.js.map
+584 silly gunzTarPerm extractEntry development/decorators/property.js.map
+585 silly gunzTarPerm extractEntry decorators/query-all.d.ts.map
+586 silly gunzTarPerm extractEntry development/decorators/query-all.d.ts.map
+587 silly gunzTarPerm extractEntry decorators/query-all.js.map
+588 silly gunzTarPerm extractEntry development/decorators/query-all.js.map
+589 silly gunzTarPerm extractEntry decorators/query-assigned-elements.d.ts.map
+590 silly gunzTarPerm extractEntry development/decorators/query-assigned-elements.d.ts.map
+591 silly gunzTarPerm extractEntry decorators/query-assigned-elements.js.map
+592 silly gunzTarPerm extractEntry development/decorators/query-assigned-elements.js.map
+593 silly gunzTarPerm extractEntry decorators/query-assigned-nodes.d.ts.map
+594 silly gunzTarPerm extractEntry development/decorators/query-assigned-nodes.d.ts.map
+595 silly gunzTarPerm extractEntry decorators/query-assigned-nodes.js.map
+596 silly gunzTarPerm extractEntry development/decorators/query-assigned-nodes.js.map
+597 silly gunzTarPerm extractEntry decorators/query-async.d.ts.map
+598 silly gunzTarPerm extractEntry development/decorators/query-async.d.ts.map
+599 silly gunzTarPerm extractEntry decorators/query-async.js.map
+600 silly gunzTarPerm extractEntry development/decorators/query-async.js.map
+601 silly gunzTarPerm extractEntry decorators/query.d.ts.map
+602 silly gunzTarPerm extractEntry development/decorators/query.d.ts.map
+603 silly gunzTarPerm extractEntry decorators/query.js.map
+604 silly gunzTarPerm extractEntry development/decorators/query.js.map
+605 silly gunzTarPerm extractEntry decorators/state.d.ts.map
+606 silly gunzTarPerm extractEntry development/decorators/state.d.ts.map
+607 silly gunzTarPerm extractEntry decorators/state.js.map
+608 silly gunzTarPerm extractEntry development/decorators/state.js.map
+609 silly gunzTarPerm extractEntry README.md
+610 silly gunzTarPerm extractEntry decorators/custom-element.d.ts
+611 silly gunzTarPerm extractEntry development/decorators/custom-element.d.ts
+612 silly gunzTarPerm extractEntry decorators.d.ts
+613 silly gunzTarPerm extractEntry development/decorators.d.ts
+614 silly gunzTarPerm extractEntry decorators/event-options.d.ts
+615 silly gunzTarPerm extractEntry development/decorators/event-options.d.ts
+616 silly gunzTarPerm extractEntry development/index.d.ts
+617 silly gunzTarPerm extractEntry index.d.ts
+618 silly gunzTarPerm extractEntry development/lit-element.d.ts
+619 silly gunzTarPerm extractEntry lit-element.d.ts
+620 silly gunzTarPerm extractEntry development/polyfill-support.d.ts
+621 silly gunzTarPerm extractEntry polyfill-support.d.ts
+622 silly gunzTarPerm extractEntry development/private-ssr-support.d.ts
+623 silly gunzTarPerm extractEntry private-ssr-support.d.ts
+624 silly gunzTarPerm extractEntry decorators/property.d.ts
+625 silly gunzTarPerm extractEntry development/decorators/property.d.ts
+626 silly gunzTarPerm extractEntry decorators/query-all.d.ts
+627 silly gunzTarPerm extractEntry development/decorators/query-all.d.ts
+628 silly gunzTarPerm extractEntry decorators/query-assigned-elements.d.ts
+629 silly gunzTarPerm extractEntry development/decorators/query-assigned-elements.d.ts
+630 silly gunzTarPerm extractEntry decorators/query-assigned-nodes.d.ts
+631 silly gunzTarPerm extractEntry development/decorators/query-assigned-nodes.d.ts
+632 silly gunzTarPerm extractEntry decorators/query-async.d.ts
+633 silly gunzTarPerm extractEntry development/decorators/query-async.d.ts
+634 silly gunzTarPerm extractEntry decorators/query.d.ts
+635 silly gunzTarPerm extractEntry development/decorators/query.d.ts
+636 silly gunzTarPerm extractEntry decorators/state.d.ts
+637 silly gunzTarPerm extractEntry development/decorators/state.d.ts
+638 silly gunzTarPerm extractEntry node/development/css-tag.js
+639 silly gunzTarPerm extractEntry decorators/custom-element.js
+640 silly gunzTarPerm extractEntry node/development/async-directive.js
+641 silly gunzTarPerm extractEntry development/directives/async-replace.js
+642 silly gunzTarPerm extractEntry development/decorators/custom-element.js
+643 silly gunzTarPerm extractEntry node/decorators/custom-element.js
+644 silly gunzTarPerm extractEntry directives/async-replace.js
+645 silly gunzTarPerm extractEntry node/development/directives/async-replace.js
+646 silly gunzTarPerm extractEntry node/development/decorators/custom-element.js
+647 silly gunzTarPerm extractEntry decorators.js
+648 silly gunzTarPerm extractEntry node/directives/async-replace.js
+649 silly gunzTarPerm extractEntry development/directives/cache.js
+650 silly gunzTarPerm extractEntry development/decorators.js
+651 silly gunzTarPerm extractEntry node/decorators.js
+652 silly gunzTarPerm extractEntry directives/cache.js
+653 silly gunzTarPerm extractEntry node/development/directives/cache.js
+654 silly gunzTarPerm extractEntry node/development/decorators.js
+655 silly gunzTarPerm extractEntry decorators/event-options.js
+656 silly gunzTarPerm extractEntry node/directives/cache.js
+657 silly gunzTarPerm extractEntry development/directives/choose.js
+658 silly gunzTarPerm extractEntry development/decorators/event-options.js
+659 silly gunzTarPerm extractEntry node/decorators/event-options.js
+660 silly gunzTarPerm extractEntry directives/choose.js
+661 silly gunzTarPerm extractEntry node/development/directives/choose.js
+662 silly gunzTarPerm extractEntry node/development/decorators/event-options.js
+663 silly gunzTarPerm extractEntry development/polyfill-support.js
+664 silly gunzTarPerm extractEntry node/directives/choose.js
+665 silly gunzTarPerm extractEntry development/directives/class-map.js
+666 silly gunzTarPerm extractEntry polyfill-support.js
+667 silly gunzTarPerm extractEntry decorators/property.js
+668 silly gunzTarPerm extractEntry directives/class-map.js
+669 silly gunzTarPerm extractEntry node/development/directives/class-map.js
+670 silly gunzTarPerm extractEntry development/decorators/property.js
+671 silly gunzTarPerm extractEntry node/decorators/property.js
+672 silly gunzTarPerm extractEntry node/directives/class-map.js
+673 silly gunzTarPerm extractEntry development/directive-helpers.js
+674 silly gunzTarPerm extractEntry node/development/decorators/property.js
+675 silly gunzTarPerm extractEntry decorators/query-all.js
+676 silly gunzTarPerm extractEntry directive-helpers.js
+677 silly gunzTarPerm extractEntry node/development/directive-helpers.js
+678 silly gunzTarPerm extractEntry node/directive-helpers.js
+679 silly gunzTarPerm extractEntry development/directive.js
+680 silly gunzTarPerm extractEntry development/decorators/query-all.js
+681 silly gunzTarPerm extractEntry node/decorators/query-all.js
+682 silly gunzTarPerm extractEntry directive.js
+683 silly gunzTarPerm extractEntry node/development/directive.js
+684 silly gunzTarPerm extractEntry node/development/decorators/query-all.js
+685 silly gunzTarPerm extractEntry decorators/query-assigned-elements.js
+686 silly gunzTarPerm extractEntry node/directive.js
+687 silly gunzTarPerm extractEntry development/directives/guard.js
+688 silly gunzTarPerm extractEntry development/decorators/query-assigned-elements.js
+689 silly gunzTarPerm extractEntry node/decorators/query-assigned-elements.js
+690 silly gunzTarPerm extractEntry directives/guard.js
+691 silly gunzTarPerm extractEntry node/development/directives/guard.js
+692 silly gunzTarPerm extractEntry node/development/decorators/query-assigned-elements.js
+693 silly gunzTarPerm extractEntry decorators/query-assigned-nodes.js
+694 silly gunzTarPerm extractEntry development/decorators/query-assigned-nodes.js
+695 silly gunzTarPerm extractEntry node/decorators/query-assigned-nodes.js
+696 silly gunzTarPerm extractEntry node/directives/guard.js
+697 silly gunzTarPerm extractEntry development/directives/if-defined.js
+698 silly gunzTarPerm extractEntry directives/if-defined.js
+699 silly gunzTarPerm extractEntry node/development/directives/if-defined.js
+700 silly gunzTarPerm extractEntry node/development/decorators/query-assigned-nodes.js
+701 silly gunzTarPerm extractEntry decorators/query-async.js
+702 silly gunzTarPerm extractEntry development/decorators/query-async.js
+703 silly gunzTarPerm extractEntry node/decorators/query-async.js
+704 silly gunzTarPerm extractEntry node/directives/if-defined.js
+705 silly gunzTarPerm extractEntry development/is-server.js
+706 silly gunzTarPerm extractEntry is-server.js
+707 silly gunzTarPerm extractEntry node/development/is-server.js
+708 silly gunzTarPerm extractEntry node/development/decorators/query-async.js
+709 silly gunzTarPerm extractEntry decorators/query.js
+710 silly gunzTarPerm extractEntry node/is-server.js
+711 silly gunzTarPerm extractEntry development/directives/join.js
+712 silly gunzTarPerm extractEntry development/decorators/query.js
+713 silly gunzTarPerm extractEntry node/decorators/query.js
+714 silly gunzTarPerm extractEntry directives/join.js
+715 silly gunzTarPerm extractEntry node/development/directives/join.js
+716 silly gunzTarPerm extractEntry node/development/decorators/query.js
+717 silly gunzTarPerm extractEntry development/reactive-controller.js
+718 silly gunzTarPerm extractEntry node/directives/join.js
+719 silly gunzTarPerm extractEntry development/directives/keyed.js
+720 silly gunzTarPerm extractEntry node/development/reactive-controller.js
+721 silly gunzTarPerm extractEntry node/reactive-controller.js
+722 silly gunzTarPerm extractEntry directives/keyed.js
+723 silly gunzTarPerm extractEntry node/development/directives/keyed.js
+724 silly gunzTarPerm extractEntry reactive-controller.js
+725 silly gunzTarPerm extractEntry development/reactive-element.js
+726 silly gunzTarPerm extractEntry node/development/reactive-element.js
+727 silly gunzTarPerm extractEntry node/reactive-element.js
+728 silly gunzTarPerm extractEntry node/directives/keyed.js
+729 silly gunzTarPerm extractEntry development/lit-html.js
+730 silly gunzTarPerm extractEntry lit-html.js
+731 silly gunzTarPerm extractEntry node/development/lit-html.js
+732 silly gunzTarPerm extractEntry reactive-element.js
+733 silly gunzTarPerm extractEntry decorators/state.js
+734 silly gunzTarPerm extractEntry development/decorators/state.js
+735 silly gunzTarPerm extractEntry node/decorators/state.js
+736 silly gunzTarPerm extractEntry node/lit-html.js
+737 silly gunzTarPerm extractEntry development/directives/live.js
+738 silly gunzTarPerm extractEntry node/development/decorators/state.js
+739 silly gunzTarPerm extractEntry package.json
+740 silly gunzTarPerm extractEntry directives/live.js
+741 silly gunzTarPerm extractEntry node/development/directives/live.js
+742 silly gunzTarPerm extractEntry decorators/base.d.ts.map
+743 silly gunzTarPerm extractEntry development/decorators/base.d.ts.map
+744 silly gunzTarPerm extractEntry node/directives/live.js
+745 silly gunzTarPerm extractEntry development/directives/map.js
+746 silly gunzTarPerm extractEntry directives/map.js
+747 silly gunzTarPerm extractEntry node/development/directives/map.js
+748 silly gunzTarPerm extractEntry decorators/base.js.map
+749 silly gunzTarPerm extractEntry development/decorators/base.js.map
+750 silly gunzTarPerm extractEntry node/decorators/base.js.map
+751 silly gunzTarPerm extractEntry node/development/decorators/base.js.map
+752 silly gunzTarPerm extractEntry node/directives/map.js
+753 silly gunzTarPerm extractEntry development/polyfill-support.js
+754 silly gunzTarPerm extractEntry node/development/polyfill-support.js
+755 silly gunzTarPerm extractEntry node/polyfill-support.js
+756 silly gunzTarPerm extractEntry css-tag.d.ts.map
+757 silly gunzTarPerm extractEntry development/css-tag.d.ts.map
+758 silly gunzTarPerm extractEntry polyfill-support.js
+759 silly gunzTarPerm extractEntry development/directives/private-async-helpers.js
+760 silly gunzTarPerm extractEntry css-tag.js.map
+761 silly gunzTarPerm extractEntry development/css-tag.js.map
+762 silly gunzTarPerm extractEntry node/css-tag.js.map
+763 silly gunzTarPerm extractEntry node/development/css-tag.js.map
+764 silly gunzTarPerm extractEntry directives/private-async-helpers.js
+765 silly gunzTarPerm extractEntry node/development/directives/private-async-helpers.js
+766 silly gunzTarPerm extractEntry decorators/custom-element.d.ts.map
+767 silly gunzTarPerm extractEntry development/decorators/custom-element.d.ts.map
+768 silly gunzTarPerm extractEntry node/directives/private-async-helpers.js
+769 silly gunzTarPerm extractEntry development/private-ssr-support.js
+770 silly gunzTarPerm extractEntry node/development/private-ssr-support.js
+771 silly gunzTarPerm extractEntry node/private-ssr-support.js
+772 silly gunzTarPerm extractEntry decorators/custom-element.js.map
+773 silly gunzTarPerm extractEntry development/decorators/custom-element.js.map
+774 silly gunzTarPerm extractEntry private-ssr-support.js
+775 silly gunzTarPerm extractEntry development/directives/range.js
+776 silly gunzTarPerm extractEntry node/decorators/custom-element.js.map
+777 silly gunzTarPerm extractEntry node/development/decorators/custom-element.js.map
+778 silly gunzTarPerm extractEntry directives/range.js
+779 silly gunzTarPerm extractEntry node/development/directives/range.js
+780 silly gunzTarPerm extractEntry decorators.d.ts.map
+781 silly gunzTarPerm extractEntry development/decorators.d.ts.map
+782 silly gunzTarPerm extractEntry node/directives/range.js
+783 silly gunzTarPerm extractEntry development/directives/ref.js
+784 silly gunzTarPerm extractEntry decorators.js.map
+785 silly gunzTarPerm extractEntry development/decorators.js.map
+786 silly gunzTarPerm extractEntry directives/ref.js
+787 silly gunzTarPerm extractEntry node/development/directives/ref.js
+788 silly gunzTarPerm extractEntry node/decorators.js.map
+789 silly gunzTarPerm extractEntry node/development/decorators.js.map
+790 silly gunzTarPerm extractEntry decorators/event-options.d.ts.map
+791 silly gunzTarPerm extractEntry development/decorators/event-options.d.ts.map
+792 silly gunzTarPerm extractEntry node/directives/ref.js
+793 silly gunzTarPerm extractEntry development/directives/repeat.js
+794 silly gunzTarPerm extractEntry directives/repeat.js
+795 silly gunzTarPerm extractEntry decorators/event-options.js.map
+796 silly gunzTarPerm extractEntry development/decorators/event-options.js.map
+797 silly gunzTarPerm extractEntry node/decorators/event-options.js.map
+798 silly gunzTarPerm extractEntry node/development/decorators/event-options.js.map
+799 silly gunzTarPerm extractEntry node/development/directives/repeat.js
+800 silly gunzTarPerm extractEntry node/directives/repeat.js
+801 silly gunzTarPerm extractEntry development/static.js
+802 silly gunzTarPerm extractEntry node/development/static.js
+803 silly gunzTarPerm extractEntry development/polyfill-support.d.ts.map
+804 silly gunzTarPerm extractEntry polyfill-support.d.ts.map
+805 silly gunzTarPerm extractEntry node/static.js
+806 silly gunzTarPerm extractEntry static.js
+807 silly gunzTarPerm extractEntry development/polyfill-support.js.map
+808 silly gunzTarPerm extractEntry polyfill-support.js.map
+809 silly gunzTarPerm extractEntry development/directives/style-map.js
+810 silly gunzTarPerm extractEntry directives/style-map.js
+811 silly gunzTarPerm extractEntry decorators/property.d.ts.map
+812 silly gunzTarPerm extractEntry development/decorators/property.d.ts.map
+813 silly gunzTarPerm extractEntry node/development/directives/style-map.js
+814 silly gunzTarPerm extractEntry node/directives/style-map.js
+815 silly gunzTarPerm extractEntry decorators/property.js.map
+816 silly gunzTarPerm extractEntry development/decorators/property.js.map
+817 silly gunzTarPerm extractEntry development/directives/template-content.js
+818 silly gunzTarPerm extractEntry directives/template-content.js
+819 silly gunzTarPerm extractEntry node/decorators/property.js.map
+820 silly gunzTarPerm extractEntry node/development/decorators/property.js.map
+821 silly gunzTarPerm extractEntry node/development/directives/template-content.js
+822 silly gunzTarPerm extractEntry node/directives/template-content.js
+823 silly gunzTarPerm extractEntry decorators/query-all.d.ts.map
+824 silly gunzTarPerm extractEntry development/decorators/query-all.d.ts.map
+825 silly gunzTarPerm extractEntry development/directives/unsafe-html.js
+826 silly gunzTarPerm extractEntry directives/unsafe-html.js
+827 silly gunzTarPerm extractEntry decorators/query-all.js.map
+828 silly gunzTarPerm extractEntry development/decorators/query-all.js.map
+829 silly gunzTarPerm extractEntry node/decorators/query-all.js.map
+830 silly gunzTarPerm extractEntry node/development/decorators/query-all.js.map
+831 silly gunzTarPerm extractEntry decorators/query-assigned-elements.d.ts.map
+832 silly gunzTarPerm extractEntry node/development/directives/unsafe-html.js
+833 silly gunzTarPerm extractEntry node/directives/unsafe-html.js
+834 silly gunzTarPerm extractEntry development/directives/unsafe-svg.js
+835 silly gunzTarPerm extractEntry directives/unsafe-svg.js
+836 silly gunzTarPerm extractEntry node/development/directives/unsafe-svg.js
+837 silly gunzTarPerm extractEntry development/decorators/query-assigned-elements.d.ts.map
+838 silly gunzTarPerm extractEntry decorators/query-assigned-elements.js.map
+839 silly gunzTarPerm extractEntry development/decorators/query-assigned-elements.js.map
+840 silly gunzTarPerm extractEntry node/directives/unsafe-svg.js
+841 silly gunzTarPerm extractEntry node/decorators/query-assigned-elements.js.map
+842 silly gunzTarPerm extractEntry development/directives/until.js
+843 silly gunzTarPerm extractEntry node/development/decorators/query-assigned-elements.js.map
+844 silly gunzTarPerm extractEntry directives/until.js
+845 silly gunzTarPerm extractEntry decorators/query-assigned-nodes.d.ts.map
+846 silly gunzTarPerm extractEntry development/decorators/query-assigned-nodes.d.ts.map
+847 silly gunzTarPerm extractEntry node/development/directives/until.js
+848 silly gunzTarPerm extractEntry node/directives/until.js
+849 silly gunzTarPerm extractEntry decorators/query-assigned-nodes.js.map
+850 silly gunzTarPerm extractEntry development/decorators/query-assigned-nodes.js.map
+851 silly gunzTarPerm extractEntry development/directives/when.js
+852 silly gunzTarPerm extractEntry directives/when.js
+853 silly gunzTarPerm extractEntry node/development/directives/when.js
+854 silly gunzTarPerm extractEntry node/directives/when.js
+855 silly gunzTarPerm extractEntry package.json
+856 silly gunzTarPerm extractEntry development/directives/async-append.d.ts.map
+857 silly gunzTarPerm extractEntry node/decorators/query-assigned-nodes.js.map
+858 silly gunzTarPerm extractEntry node/development/decorators/query-assigned-nodes.js.map
+859 silly gunzTarPerm extractEntry directives/async-append.d.ts.map
+860 silly gunzTarPerm extractEntry development/directives/async-append.js.map
+861 silly gunzTarPerm extractEntry decorators/query-async.d.ts.map
+862 silly gunzTarPerm extractEntry development/decorators/query-async.d.ts.map
+863 silly gunzTarPerm extractEntry decorators/query-async.js.map
+864 silly gunzTarPerm extractEntry development/decorators/query-async.js.map
+865 silly gunzTarPerm extractEntry directives/async-append.js.map
+866 silly gunzTarPerm extractEntry node/development/directives/async-append.js.map
+867 silly gunzTarPerm extractEntry node/decorators/query-async.js.map
+868 silly gunzTarPerm extractEntry node/development/decorators/query-async.js.map
+869 silly gunzTarPerm extractEntry node/directives/async-append.js.map
+870 silly gunzTarPerm extractEntry async-directive.d.ts.map
+871 silly gunzTarPerm extractEntry decorators/query.d.ts.map
+872 silly gunzTarPerm extractEntry development/decorators/query.d.ts.map
+873 silly gunzTarPerm extractEntry development/async-directive.d.ts.map
+874 silly gunzTarPerm extractEntry async-directive.js.map
+875 silly gunzTarPerm extractEntry development/async-directive.js.map
+876 silly gunzTarPerm extractEntry node/async-directive.js.map
+877 silly gunzTarPerm extractEntry decorators/query.js.map
+878 silly gunzTarPerm extractEntry development/decorators/query.js.map
+879 silly gunzTarPerm extractEntry node/development/async-directive.js.map
+880 silly gunzTarPerm extractEntry development/directives/async-replace.d.ts.map
+881 silly gunzTarPerm extractEntry node/decorators/query.js.map
+882 silly gunzTarPerm extractEntry directives/async-replace.d.ts.map
+883 silly gunzTarPerm extractEntry development/directives/async-replace.js.map
+884 silly gunzTarPerm extractEntry node/development/decorators/query.js.map
+885 silly gunzTarPerm extractEntry development/reactive-controller.d.ts.map
+886 silly gunzTarPerm extractEntry directives/async-replace.js.map
+887 silly gunzTarPerm extractEntry node/development/directives/async-replace.js.map
+888 silly gunzTarPerm extractEntry reactive-controller.d.ts.map
+889 silly gunzTarPerm extractEntry development/reactive-controller.js.map
+890 silly gunzTarPerm extractEntry node/directives/async-replace.js.map
+891 silly gunzTarPerm extractEntry development/directives/cache.d.ts.map
+892 silly gunzTarPerm extractEntry node/development/reactive-controller.js.map
+893 silly gunzTarPerm extractEntry node/reactive-controller.js.map
+894 silly gunzTarPerm extractEntry directives/cache.d.ts.map
+895 silly gunzTarPerm extractEntry development/directives/cache.js.map
+896 silly gunzTarPerm extractEntry reactive-controller.js.map
+897 silly gunzTarPerm extractEntry development/reactive-element.d.ts.map
+898 silly gunzTarPerm extractEntry reactive-element.d.ts.map
+899 silly gunzTarPerm extractEntry development/reactive-element.js.map
+900 silly gunzTarPerm extractEntry directives/cache.js.map
+901 silly gunzTarPerm extractEntry node/development/directives/cache.js.map
+902 silly gunzTarPerm extractEntry node/development/reactive-element.js.map
+903 silly gunzTarPerm extractEntry node/reactive-element.js.map
+904 silly gunzTarPerm extractEntry node/directives/cache.js.map
+905 silly gunzTarPerm extractEntry development/directives/choose.d.ts.map
+906 silly gunzTarPerm extractEntry reactive-element.js.map
+907 silly gunzTarPerm extractEntry decorators/state.d.ts.map
+908 silly gunzTarPerm extractEntry development/decorators/state.d.ts.map
+909 silly gunzTarPerm extractEntry decorators/state.js.map
+910 silly gunzTarPerm extractEntry development/decorators/state.js.map
+911 silly gunzTarPerm extractEntry node/decorators/state.js.map
+912 silly gunzTarPerm extractEntry node/development/decorators/state.js.map
+913 silly gunzTarPerm extractEntry README.md
+914 silly gunzTarPerm extractEntry decorators/base.d.ts
+915 silly gunzTarPerm extractEntry development/decorators/base.d.ts
+916 silly gunzTarPerm extractEntry css-tag.d.ts
+917 silly gunzTarPerm extractEntry development/css-tag.d.ts
+918 silly gunzTarPerm extractEntry decorators/custom-element.d.ts
+919 silly gunzTarPerm extractEntry development/decorators/custom-element.d.ts
+920 silly gunzTarPerm extractEntry decorators.d.ts
+921 silly gunzTarPerm extractEntry development/decorators.d.ts
+922 silly gunzTarPerm extractEntry decorators/event-options.d.ts
+923 silly gunzTarPerm extractEntry development/decorators/event-options.d.ts
+924 silly gunzTarPerm extractEntry development/polyfill-support.d.ts
+925 silly gunzTarPerm extractEntry polyfill-support.d.ts
+926 silly gunzTarPerm extractEntry decorators/property.d.ts
+927 silly gunzTarPerm extractEntry development/decorators/property.d.ts
+928 silly gunzTarPerm extractEntry decorators/query-all.d.ts
+929 silly gunzTarPerm extractEntry development/decorators/query-all.d.ts
+930 silly gunzTarPerm extractEntry decorators/query-assigned-elements.d.ts
+931 silly gunzTarPerm extractEntry development/decorators/query-assigned-elements.d.ts
+932 silly gunzTarPerm extractEntry decorators/query-assigned-nodes.d.ts
+933 silly gunzTarPerm extractEntry development/decorators/query-assigned-nodes.d.ts
+934 silly gunzTarPerm extractEntry decorators/query-async.d.ts
+935 silly gunzTarPerm extractEntry development/decorators/query-async.d.ts
+936 silly gunzTarPerm extractEntry decorators/query.d.ts
+937 silly gunzTarPerm extractEntry development/decorators/query.d.ts
+938 silly gunzTarPerm extractEntry development/reactive-controller.d.ts
+939 silly gunzTarPerm extractEntry reactive-controller.d.ts
+940 silly gunzTarPerm extractEntry development/reactive-element.d.ts
+941 silly gunzTarPerm extractEntry reactive-element.d.ts
+942 silly gunzTarPerm extractEntry decorators/state.d.ts
+943 silly gunzTarPerm extractEntry development/decorators/state.d.ts
+944 silly gunzTarPerm extractEntry directives/choose.d.ts.map
+945 silly gunzTarPerm extractEntry development/directives/choose.js.map
+946 silly gunzTarPerm extractEntry directives/choose.js.map
+947 silly gunzTarPerm extractEntry node/development/directives/choose.js.map
+948 silly gunzTarPerm extractEntry node/directives/choose.js.map
+949 silly gunzTarPerm extractEntry development/directives/class-map.d.ts.map
+950 silly gunzTarPerm extractEntry directives/class-map.d.ts.map
+951 silly gunzTarPerm extractEntry development/directives/class-map.js.map
+952 silly gunzTarPerm extractEntry directives/class-map.js.map
+953 silly gunzTarPerm extractEntry node/development/directives/class-map.js.map
+954 silly gunzTarPerm extractEntry node/directives/class-map.js.map
+955 silly gunzTarPerm extractEntry development/directive-helpers.d.ts.map
+956 silly gunzTarPerm extractEntry directive-helpers.d.ts.map
+957 silly gunzTarPerm extractEntry development/directive-helpers.js.map
+958 silly gunzTarPerm extractEntry directive-helpers.js.map
+959 silly gunzTarPerm extractEntry node/development/directive-helpers.js.map
+960 silly gunzTarPerm extractEntry node/directive-helpers.js.map
+961 silly gunzTarPerm extractEntry development/directive.d.ts.map
+962 silly gunzTarPerm extractEntry directive.d.ts.map
+963 silly gunzTarPerm extractEntry development/directive.js.map
+964 silly gunzTarPerm extractEntry directive.js.map
+965 silly gunzTarPerm extractEntry node/development/directive.js.map
+966 silly gunzTarPerm extractEntry node/directive.js.map
+967 silly gunzTarPerm extractEntry development/directives/guard.d.ts.map
+968 silly gunzTarPerm extractEntry directives/guard.d.ts.map
+969 silly gunzTarPerm extractEntry development/directives/guard.js.map
+970 silly gunzTarPerm extractEntry directives/guard.js.map
+971 silly gunzTarPerm extractEntry node/development/directives/guard.js.map
+972 silly gunzTarPerm extractEntry node/directives/guard.js.map
+973 silly gunzTarPerm extractEntry development/directives/if-defined.d.ts.map
+974 silly gunzTarPerm extractEntry directives/if-defined.d.ts.map
+975 silly gunzTarPerm extractEntry development/directives/if-defined.js.map
+976 silly gunzTarPerm extractEntry directives/if-defined.js.map
+977 silly gunzTarPerm extractEntry node/development/directives/if-defined.js.map
+978 silly gunzTarPerm extractEntry node/directives/if-defined.js.map
+979 silly gunzTarPerm extractEntry development/is-server.d.ts.map
+980 silly gunzTarPerm extractEntry is-server.d.ts.map
+981 silly gunzTarPerm extractEntry development/is-server.js.map
+982 silly gunzTarPerm extractEntry is-server.js.map
+983 silly gunzTarPerm extractEntry node/development/is-server.js.map
+984 silly gunzTarPerm extractEntry node/is-server.js.map
+985 silly gunzTarPerm extractEntry development/directives/join.d.ts.map
+986 silly gunzTarPerm extractEntry directives/join.d.ts.map
+987 silly gunzTarPerm extractEntry development/directives/join.js.map
+988 silly gunzTarPerm extractEntry directives/join.js.map
+989 silly gunzTarPerm extractEntry node/development/directives/join.js.map
+990 silly gunzTarPerm extractEntry node/directives/join.js.map
+991 silly gunzTarPerm extractEntry development/directives/keyed.d.ts.map
+992 silly gunzTarPerm extractEntry directives/keyed.d.ts.map
+993 silly gunzTarPerm extractEntry development/directives/keyed.js.map
+994 silly gunzTarPerm extractEntry directives/keyed.js.map
+995 silly gunzTarPerm extractEntry node/development/directives/keyed.js.map
+996 silly gunzTarPerm extractEntry node/directives/keyed.js.map
+997 silly gunzTarPerm extractEntry development/lit-html.d.ts.map
+998 silly gunzTarPerm extractEntry lit-html.d.ts.map
+999 silly gunzTarPerm extractEntry development/lit-html.js.map
+1000 silly gunzTarPerm extractEntry lit-html.js.map
+1001 silly gunzTarPerm extractEntry node/development/lit-html.js.map
+1002 silly gunzTarPerm extractEntry node/lit-html.js.map
+1003 silly gunzTarPerm extractEntry development/directives/live.d.ts.map
+1004 silly gunzTarPerm extractEntry directives/live.d.ts.map
+1005 silly gunzTarPerm extractEntry development/directives/live.js.map
+1006 silly gunzTarPerm extractEntry directives/live.js.map
+1007 silly gunzTarPerm extractEntry node/development/directives/live.js.map
+1008 silly gunzTarPerm extractEntry node/directives/live.js.map
+1009 silly gunzTarPerm extractEntry development/directives/map.d.ts.map
+1010 silly gunzTarPerm extractEntry directives/map.d.ts.map
+1011 silly gunzTarPerm extractEntry development/directives/map.js.map
+1012 silly gunzTarPerm extractEntry directives/map.js.map
+1013 silly gunzTarPerm extractEntry node/development/directives/map.js.map
+1014 silly gunzTarPerm extractEntry node/directives/map.js.map
+1015 silly gunzTarPerm extractEntry development/polyfill-support.d.ts.map
+1016 silly gunzTarPerm extractEntry polyfill-support.d.ts.map
+1017 silly gunzTarPerm extractEntry development/polyfill-support.js.map
+1018 silly gunzTarPerm extractEntry node/development/polyfill-support.js.map
+1019 silly gunzTarPerm extractEntry node/polyfill-support.js.map
+1020 silly gunzTarPerm extractEntry polyfill-support.js.map
+1021 silly gunzTarPerm extractEntry development/directives/private-async-helpers.d.ts.map
+1022 silly gunzTarPerm extractEntry directives/private-async-helpers.d.ts.map
+1023 silly gunzTarPerm extractEntry development/directives/private-async-helpers.js.map
+1024 silly gunzTarPerm extractEntry directives/private-async-helpers.js.map
+1025 silly gunzTarPerm extractEntry node/development/directives/private-async-helpers.js.map
+1026 silly gunzTarPerm extractEntry node/directives/private-async-helpers.js.map
+1027 silly gunzTarPerm extractEntry development/private-ssr-support.d.ts.map
+1028 silly gunzTarPerm extractEntry private-ssr-support.d.ts.map
+1029 silly gunzTarPerm extractEntry development/private-ssr-support.js.map
+1030 silly gunzTarPerm extractEntry node/development/private-ssr-support.js.map
+1031 silly gunzTarPerm extractEntry node/private-ssr-support.js.map
+1032 verbose write writing to /Users/idscomercial/Desktop/ejercicioA/node_modules/lit/node_modules/lit-element/package.json
+1033 silly gunzTarPerm extractEntry private-ssr-support.js.map
+1034 silly gunzTarPerm extractEntry development/directives/range.d.ts.map
+1035 info preinstall lit-element@4.0.5
+1036 verbose readDependencies loading dependencies from /Users/idscomercial/Desktop/ejercicioA/node_modules/lit/node_modules/lit-element/package.json
+1037 silly prepareForInstallMany adding @lit-labs/ssr-dom-shim@^1.2.0 from lit-element dependencies
+1038 verbose readDependencies loading dependencies from /Users/idscomercial/Desktop/ejercicioA/node_modules/lit/node_modules/lit-element/package.json
+1039 silly gunzTarPerm extractEntry directives/range.d.ts.map
+1040 silly gunzTarPerm extractEntry development/directives/range.js.map
+1041 silly gunzTarPerm extractEntry directives/range.js.map
+1042 silly gunzTarPerm extractEntry node/development/directives/range.js.map
+1043 silly cache add args [ '@lit-labs/ssr-dom-shim@^1.2.0', null ]
+1044 verbose cache add spec @lit-labs/ssr-dom-shim@^1.2.0
+1045 silly cache add parsed spec Result {
+1045 silly cache add   raw: '@lit-labs/ssr-dom-shim@^1.2.0',
+1045 silly cache add   scope: '@lit-labs',
+1045 silly cache add   name: '@lit-labs/ssr-dom-shim',
+1045 silly cache add   rawSpec: '^1.2.0',
+1045 silly cache add   spec: '>=1.2.0 <2.0.0',
+1045 silly cache add   type: 'range' }
+1046 silly addNamed @lit-labs/ssr-dom-shim@>=1.2.0 <2.0.0
+1047 verbose addNamed ">=1.2.0 <2.0.0" is a valid semver range for @lit-labs/ssr-dom-shim
+1048 silly addNameRange { name: '@lit-labs/ssr-dom-shim',
+1048 silly addNameRange   range: '>=1.2.0 <2.0.0',
+1048 silly addNameRange   hasData: false }
+1049 silly mapToRegistry name @lit-labs/ssr-dom-shim
+1050 silly mapToRegistry scope (from package name) @lit-labs
+1051 verbose mapToRegistry no registry URL found in name for scope @lit-labs
+1052 silly mapToRegistry using default registry
+1053 silly mapToRegistry registry https://registry.npmjs.org/
+1054 silly mapToRegistry data Result {
+1054 silly mapToRegistry   raw: '@lit-labs/ssr-dom-shim',
+1054 silly mapToRegistry   scope: '@lit-labs',
+1054 silly mapToRegistry   name: '@lit-labs/ssr-dom-shim',
+1054 silly mapToRegistry   rawSpec: '',
+1054 silly mapToRegistry   spec: 'latest',
+1054 silly mapToRegistry   type: 'tag' }
+1055 silly mapToRegistry uri https://registry.npmjs.org/@lit-labs%2fssr-dom-shim
+1056 verbose addNameRange registry:https://registry.npmjs.org/@lit-labs%2fssr-dom-shim not in flight; fetching
+1057 verbose request uri https://registry.npmjs.org/@lit-labs%2fssr-dom-shim
+1058 verbose request no auth needed
+1059 info attempt registry request try #1 at 20:15:52
+1060 verbose etag W/"ea551bbcbce13eb73a4b8f249cfa57cf"
+1061 verbose lastModified Wed, 31 Jan 2024 19:49:50 GMT
+1062 http request GET https://registry.npmjs.org/@lit-labs%2fssr-dom-shim
+1063 silly gunzTarPerm extractEntry node/directives/range.js.map
+1064 silly gunzTarPerm extractEntry development/directives/ref.d.ts.map
+1065 silly gunzTarPerm extractEntry directives/ref.d.ts.map
+1066 silly gunzTarPerm extractEntry development/directives/ref.js.map
+1067 silly gunzTarPerm extractEntry directives/ref.js.map
+1068 silly gunzTarPerm extractEntry node/development/directives/ref.js.map
+1069 silly gunzTarPerm extractEntry node/directives/ref.js.map
+1070 silly gunzTarPerm extractEntry development/directives/repeat.d.ts.map
+1071 silly gunzTarPerm extractEntry directives/repeat.d.ts.map
+1072 silly gunzTarPerm extractEntry development/directives/repeat.js.map
+1073 silly gunzTarPerm extractEntry directives/repeat.js.map
+1074 silly gunzTarPerm extractEntry node/development/directives/repeat.js.map
+1075 silly gunzTarPerm extractEntry node/directives/repeat.js.map
+1076 silly gunzTarPerm extractEntry development/static.d.ts.map
+1077 silly gunzTarPerm extractEntry static.d.ts.map
+1078 silly gunzTarPerm extractEntry development/static.js.map
+1079 silly gunzTarPerm extractEntry node/development/static.js.map
+1080 silly gunzTarPerm extractEntry node/static.js.map
+1081 silly gunzTarPerm extractEntry static.js.map
+1082 silly gunzTarPerm extractEntry development/directives/style-map.d.ts.map
+1083 silly gunzTarPerm extractEntry directives/style-map.d.ts.map
+1084 silly gunzTarPerm extractEntry development/directives/style-map.js.map
+1085 silly gunzTarPerm extractEntry directives/style-map.js.map
+1086 silly gunzTarPerm extractEntry node/development/directives/style-map.js.map
+1087 silly gunzTarPerm extractEntry node/directives/style-map.js.map
+1088 silly gunzTarPerm extractEntry development/directives/template-content.d.ts.map
+1089 silly gunzTarPerm extractEntry directives/template-content.d.ts.map
+1090 silly gunzTarPerm extractEntry development/directives/template-content.js.map
+1091 silly gunzTarPerm extractEntry directives/template-content.js.map
+1092 silly gunzTarPerm extractEntry node/development/directives/template-content.js.map
+1093 silly gunzTarPerm extractEntry node/directives/template-content.js.map
+1094 silly gunzTarPerm extractEntry development/directives/unsafe-html.d.ts.map
+1095 silly gunzTarPerm extractEntry directives/unsafe-html.d.ts.map
+1096 silly gunzTarPerm extractEntry development/directives/unsafe-html.js.map
+1097 silly gunzTarPerm extractEntry directives/unsafe-html.js.map
+1098 silly gunzTarPerm extractEntry node/development/directives/unsafe-html.js.map
+1099 silly gunzTarPerm extractEntry node/directives/unsafe-html.js.map
+1100 silly gunzTarPerm extractEntry development/directives/unsafe-svg.d.ts.map
+1101 silly gunzTarPerm extractEntry directives/unsafe-svg.d.ts.map
+1102 silly gunzTarPerm extractEntry development/directives/unsafe-svg.js.map
+1103 silly gunzTarPerm extractEntry directives/unsafe-svg.js.map
+1104 silly gunzTarPerm extractEntry node/development/directives/unsafe-svg.js.map
+1105 silly gunzTarPerm extractEntry node/directives/unsafe-svg.js.map
+1106 silly gunzTarPerm extractEntry development/directives/until.d.ts.map
+1107 silly gunzTarPerm extractEntry directives/until.d.ts.map
+1108 silly gunzTarPerm extractEntry development/directives/until.js.map
+1109 silly gunzTarPerm extractEntry directives/until.js.map
+1110 silly gunzTarPerm extractEntry node/development/directives/until.js.map
+1111 silly gunzTarPerm extractEntry node/directives/until.js.map
+1112 silly gunzTarPerm extractEntry development/directives/when.d.ts.map
+1113 silly gunzTarPerm extractEntry directives/when.d.ts.map
+1114 silly gunzTarPerm extractEntry development/directives/when.js.map
+1115 silly gunzTarPerm extractEntry directives/when.js.map
+1116 silly gunzTarPerm extractEntry node/development/directives/when.js.map
+1117 silly gunzTarPerm extractEntry node/directives/when.js.map
+1118 silly gunzTarPerm extractEntry README.md
+1119 silly gunzTarPerm extractEntry development/directives/async-append.d.ts
+1120 silly gunzTarPerm extractEntry directives/async-append.d.ts
+1121 silly gunzTarPerm extractEntry async-directive.d.ts
+1122 silly gunzTarPerm extractEntry development/async-directive.d.ts
+1123 silly gunzTarPerm extractEntry development/directives/async-replace.d.ts
+1124 silly gunzTarPerm extractEntry directives/async-replace.d.ts
+1125 silly gunzTarPerm extractEntry development/directives/cache.d.ts
+1126 silly gunzTarPerm extractEntry directives/cache.d.ts
+1127 silly gunzTarPerm extractEntry development/directives/choose.d.ts
+1128 silly gunzTarPerm extractEntry directives/choose.d.ts
+1129 silly gunzTarPerm extractEntry development/directives/class-map.d.ts
+1130 silly gunzTarPerm extractEntry directives/class-map.d.ts
+1131 silly gunzTarPerm extractEntry development/directive-helpers.d.ts
+1132 silly gunzTarPerm extractEntry directive-helpers.d.ts
+1133 silly gunzTarPerm extractEntry development/directive.d.ts
+1134 silly gunzTarPerm extractEntry directive.d.ts
+1135 silly gunzTarPerm extractEntry development/directives/guard.d.ts
+1136 silly gunzTarPerm extractEntry directives/guard.d.ts
+1137 silly gunzTarPerm extractEntry development/directives/if-defined.d.ts
+1138 silly gunzTarPerm extractEntry directives/if-defined.d.ts
+1139 silly gunzTarPerm extractEntry development/is-server.d.ts
+1140 silly gunzTarPerm extractEntry is-server.d.ts
+1141 silly gunzTarPerm extractEntry development/directives/join.d.ts
+1142 silly gunzTarPerm extractEntry directives/join.d.ts
+1143 silly gunzTarPerm extractEntry development/directives/keyed.d.ts
+1144 silly gunzTarPerm extractEntry directives/keyed.d.ts
+1145 silly gunzTarPerm extractEntry development/lit-html.d.ts
+1146 silly gunzTarPerm extractEntry lit-html.d.ts
+1147 silly gunzTarPerm extractEntry development/directives/live.d.ts
+1148 silly gunzTarPerm extractEntry directives/live.d.ts
+1149 silly gunzTarPerm extractEntry development/directives/map.d.ts
+1150 silly gunzTarPerm extractEntry directives/map.d.ts
+1151 silly gunzTarPerm extractEntry development/polyfill-support.d.ts
+1152 silly gunzTarPerm extractEntry polyfill-support.d.ts
+1153 silly gunzTarPerm extractEntry development/directives/private-async-helpers.d.ts
+1154 silly gunzTarPerm extractEntry directives/private-async-helpers.d.ts
+1155 silly gunzTarPerm extractEntry development/private-ssr-support.d.ts
+1156 silly gunzTarPerm extractEntry private-ssr-support.d.ts
+1157 silly gunzTarPerm extractEntry development/directives/range.d.ts
+1158 silly gunzTarPerm extractEntry directives/range.d.ts
+1159 silly gunzTarPerm extractEntry development/directives/ref.d.ts
+1160 silly gunzTarPerm extractEntry directives/ref.d.ts
+1161 silly gunzTarPerm extractEntry development/directives/repeat.d.ts
+1162 silly gunzTarPerm extractEntry directives/repeat.d.ts
+1163 silly gunzTarPerm extractEntry development/static.d.ts
+1164 silly gunzTarPerm extractEntry static.d.ts
+1165 silly gunzTarPerm extractEntry development/directives/style-map.d.ts
+1166 silly gunzTarPerm extractEntry directives/style-map.d.ts
+1167 silly gunzTarPerm extractEntry development/directives/template-content.d.ts
+1168 silly gunzTarPerm extractEntry directives/template-content.d.ts
+1169 silly gunzTarPerm extractEntry development/directives/unsafe-html.d.ts
+1170 silly gunzTarPerm extractEntry directives/unsafe-html.d.ts
+1171 silly gunzTarPerm extractEntry development/directives/unsafe-svg.d.ts
+1172 silly gunzTarPerm extractEntry directives/unsafe-svg.d.ts
+1173 silly gunzTarPerm extractEntry development/directives/until.d.ts
+1174 silly gunzTarPerm extractEntry directives/until.d.ts
+1175 silly gunzTarPerm extractEntry development/directives/when.d.ts
+1176 silly gunzTarPerm extractEntry directives/when.d.ts
+1177 verbose write writing to /Users/idscomercial/Desktop/ejercicioA/node_modules/lit/node_modules/@lit/reactive-element/package.json
+1178 info preinstall @lit/reactive-element@2.0.4
+1179 verbose readDependencies loading dependencies from /Users/idscomercial/Desktop/ejercicioA/node_modules/lit/node_modules/@lit/reactive-element/package.json
+1180 silly prepareForInstallMany adding @lit-labs/ssr-dom-shim@^1.2.0 from @lit/reactive-element dependencies
+1181 verbose readDependencies loading dependencies from /Users/idscomercial/Desktop/ejercicioA/node_modules/lit/node_modules/@lit/reactive-element/package.json
+1182 silly cache add args [ '@lit-labs/ssr-dom-shim@^1.2.0', null ]
+1183 verbose cache add spec @lit-labs/ssr-dom-shim@^1.2.0
+1184 silly cache add parsed spec Result {
+1184 silly cache add   raw: '@lit-labs/ssr-dom-shim@^1.2.0',
+1184 silly cache add   scope: '@lit-labs',
+1184 silly cache add   name: '@lit-labs/ssr-dom-shim',
+1184 silly cache add   rawSpec: '^1.2.0',
+1184 silly cache add   spec: '>=1.2.0 <2.0.0',
+1184 silly cache add   type: 'range' }
+1185 silly addNamed @lit-labs/ssr-dom-shim@>=1.2.0 <2.0.0
+1186 verbose addNamed ">=1.2.0 <2.0.0" is a valid semver range for @lit-labs/ssr-dom-shim
+1187 silly addNameRange { name: '@lit-labs/ssr-dom-shim',
+1187 silly addNameRange   range: '>=1.2.0 <2.0.0',
+1187 silly addNameRange   hasData: false }
+1188 silly mapToRegistry name @lit-labs/ssr-dom-shim
+1189 silly mapToRegistry scope (from package name) @lit-labs
+1190 verbose mapToRegistry no registry URL found in name for scope @lit-labs
+1191 silly mapToRegistry using default registry
+1192 silly mapToRegistry registry https://registry.npmjs.org/
+1193 silly mapToRegistry data Result {
+1193 silly mapToRegistry   raw: '@lit-labs/ssr-dom-shim',
+1193 silly mapToRegistry   scope: '@lit-labs',
+1193 silly mapToRegistry   name: '@lit-labs/ssr-dom-shim',
+1193 silly mapToRegistry   rawSpec: '',
+1193 silly mapToRegistry   spec: 'latest',
+1193 silly mapToRegistry   type: 'tag' }
+1194 silly mapToRegistry uri https://registry.npmjs.org/@lit-labs%2fssr-dom-shim
+1195 verbose addNameRange registry:https://registry.npmjs.org/@lit-labs%2fssr-dom-shim already in flight; waiting
+1196 http 304 https://registry.npmjs.org/@lit-labs%2fssr-dom-shim
+1197 verbose headers { date: 'Tue, 07 May 2024 01:15:53 GMT',
+1197 verbose headers   connection: 'keep-alive',
+1197 verbose headers   'cf-ray': '87fd5c88a81a6b27-DFW',
+1197 verbose headers   'cf-cache-status': 'HIT',
+1197 verbose headers   age: '58',
+1197 verbose headers   'cache-control': 'public, max-age=300',
+1197 verbose headers   etag: '"ea551bbcbce13eb73a4b8f249cfa57cf"',
+1197 verbose headers   'last-modified': 'Wed, 31 Jan 2024 19:49:50 GMT',
+1197 verbose headers   vary: 'Accept-Encoding',
+1197 verbose headers   server: 'cloudflare' }
+1198 silly get cb [ 304,
+1198 silly get   { date: 'Tue, 07 May 2024 01:15:53 GMT',
+1198 silly get     connection: 'keep-alive',
+1198 silly get     'cf-ray': '87fd5c88a81a6b27-DFW',
+1198 silly get     'cf-cache-status': 'HIT',
+1198 silly get     age: '58',
+1198 silly get     'cache-control': 'public, max-age=300',
+1198 silly get     etag: '"ea551bbcbce13eb73a4b8f249cfa57cf"',
+1198 silly get     'last-modified': 'Wed, 31 Jan 2024 19:49:50 GMT',
+1198 silly get     vary: 'Accept-Encoding',
+1198 silly get     server: 'cloudflare' } ]
+1199 verbose etag https://registry.npmjs.org/@lit-labs%2fssr-dom-shim from cache
+1200 verbose get saving @lit-labs/ssr-dom-shim to /Users/idscomercial/.npm/registry.npmjs.org/_40lit-labs_252fssr-dom-shim/.cache.json
+1201 verbose correctMkdir /Users/idscomercial/.npm correctMkdir not in flight; initializing
+1202 silly addNameRange number 2 { name: '@lit-labs/ssr-dom-shim',
+1202 silly addNameRange   range: '>=1.2.0 <2.0.0',
+1202 silly addNameRange   hasData: true }
+1203 silly addNameRange versions [ '@lit-labs/ssr-dom-shim',
+1203 silly addNameRange   [ '1.0.0',
+1203 silly addNameRange     '1.1.0',
+1203 silly addNameRange     '1.1.1',
+1203 silly addNameRange     '1.1.2-pre.0',
+1203 silly addNameRange     '1.1.2-pre.1',
+1203 silly addNameRange     '1.1.2',
+1203 silly addNameRange     '1.2.0' ] ]
+1204 silly addNamed @lit-labs/ssr-dom-shim@1.2.0
+1205 verbose addNamed "1.2.0" is a plain semver version for @lit-labs/ssr-dom-shim
+1206 silly addNameRange number 2 { name: '@lit-labs/ssr-dom-shim',
+1206 silly addNameRange   range: '>=1.2.0 <2.0.0',
+1206 silly addNameRange   hasData: true }
+1207 silly addNameRange versions [ '@lit-labs/ssr-dom-shim',
+1207 silly addNameRange   [ '1.0.0',
+1207 silly addNameRange     '1.1.0',
+1207 silly addNameRange     '1.1.1',
+1207 silly addNameRange     '1.1.2-pre.0',
+1207 silly addNameRange     '1.1.2-pre.1',
+1207 silly addNameRange     '1.1.2',
+1207 silly addNameRange     '1.2.0' ] ]
+1208 silly addNamed @lit-labs/ssr-dom-shim@1.2.0
+1209 verbose addNamed "1.2.0" is a plain semver version for @lit-labs/ssr-dom-shim
+1210 silly cache afterAdd @lit-labs/ssr-dom-shim@1.2.0
+1211 verbose afterAdd /Users/idscomercial/.npm/@lit-labs/ssr-dom-shim/1.2.0/package/package.json not in flight; writing
+1212 verbose correctMkdir /Users/idscomercial/.npm correctMkdir not in flight; initializing
+1213 silly cache afterAdd @lit-labs/ssr-dom-shim@1.2.0
+1214 verbose afterAdd /Users/idscomercial/.npm/@lit-labs/ssr-dom-shim/1.2.0/package/package.json already in flight; not writing
+1215 verbose afterAdd /Users/idscomercial/.npm/@lit-labs/ssr-dom-shim/1.2.0/package/package.json written
+1216 silly install resolved [ { name: '@lit-labs/ssr-dom-shim',
+1216 silly install resolved     version: '1.2.0',
+1216 silly install resolved     publishConfig: { access: 'public' },
+1216 silly install resolved     description: 'DOM shim for Lit Server Side Rendering (SSR)',
+1216 silly install resolved     license: 'BSD-3-Clause',
+1216 silly install resolved     author: { name: 'Google LLC' },
+1216 silly install resolved     homepage: 'https://github.com/lit/lit/tree/main/packages/labs/ssr-dom-shim',
+1216 silly install resolved     repository:
+1216 silly install resolved      { type: 'git',
+1216 silly install resolved        url: 'git+https://github.com/lit/lit.git',
+1216 silly install resolved        directory: 'packages/labs/ssr-dom-shim' },
+1216 silly install resolved     main: 'index.js',
+1216 silly install resolved     typings: 'index.d.ts',
+1216 silly install resolved     type: 'module',
+1216 silly install resolved     exports: { '.': [Object] },
+1216 silly install resolved     scripts: { build: 'wireit', 'build:ts': 'wireit', test: 'wireit' },
+1216 silly install resolved     wireit: { build: [Object], 'build:ts': [Object], test: [Object] },
+1216 silly install resolved     _id: '@lit-labs/ssr-dom-shim@1.2.0',
+1216 silly install resolved     gitHead: 'b4e3c0ef472b89aee09c1ecf194e2bbb9b1441f7',
+1216 silly install resolved     bugs: { url: 'https://github.com/lit/lit/issues' },
+1216 silly install resolved     _nodeVersion: '20.11.0',
+1216 silly install resolved     _npmVersion: '10.2.4',
+1216 silly install resolved     dist:
+1216 silly install resolved      { integrity: 'sha512-yWJKmpGE6lUURKAaIltoPIE/wrbY3TEkqQt+X0m+7fQNnAv0keydnYvbiJFP1PnMhizmIWRWOG5KLhYyc/xl+g==',
+1216 silly install resolved        shasum: '353ce4a76c83fadec272ea5674ede767650762fd',
+1216 silly install resolved        tarball: 'https://registry.npmjs.org/@lit-labs/ssr-dom-shim/-/ssr-dom-shim-1.2.0.tgz',
+1216 silly install resolved        fileCount: 10,
+1216 silly install resolved        unpackedSize: 35738,
+1216 silly install resolved        signatures: [Object] },
+1216 silly install resolved     _npmUser: { name: 'lit-robot', email: 'lit-robot@google.com' },
+1216 silly install resolved     directories: {},
+1216 silly install resolved     maintainers:
+1216 silly install resolved      [ [Object],
+1216 silly install resolved        [Object],
+1216 silly install resolved        [Object],
+1216 silly install resolved        [Object],
+1216 silly install resolved        [Object],
+1216 silly install resolved        [Object],
+1216 silly install resolved        [Object],
+1216 silly install resolved        [Object],
+1216 silly install resolved        [Object],
+1216 silly install resolved        [Object],
+1216 silly install resolved        [Object] ],
+1216 silly install resolved     _npmOperationalInternal:
+1216 silly install resolved      { host: 's3://npm-registry-packages',
+1216 silly install resolved        tmp: 'tmp/ssr-dom-shim_1.2.0_1706730588502_0.13414509998548896' },
+1216 silly install resolved     _hasShrinkwrap: false,
+1216 silly install resolved     _shasum: '353ce4a76c83fadec272ea5674ede767650762fd',
+1216 silly install resolved     _resolved: 'https://registry.npmjs.org/@lit-labs/ssr-dom-shim/-/ssr-dom-shim-1.2.0.tgz',
+1216 silly install resolved     _from: '@lit-labs/ssr-dom-shim@>=1.2.0 <2.0.0',
+1216 silly install resolved     readme: 'ERROR: No README data found!' } ]
+1217 info install @lit-labs/ssr-dom-shim@1.2.0 into /Users/idscomercial/Desktop/ejercicioA/node_modules/lit/node_modules/@lit/reactive-element
+1218 info installOne @lit-labs/ssr-dom-shim@1.2.0
+1219 verbose installOne of @lit-labs/ssr-dom-shim to /Users/idscomercial/Desktop/ejercicioA/node_modules/lit/node_modules/@lit/reactive-element not in flight; installing
+1220 verbose correctMkdir /Users/idscomercial/.npm/_locks correctMkdir not in flight; initializing
+1221 silly install resolved [ { name: '@lit-labs/ssr-dom-shim',
+1221 silly install resolved     version: '1.2.0',
+1221 silly install resolved     publishConfig: { access: 'public' },
+1221 silly install resolved     description: 'DOM shim for Lit Server Side Rendering (SSR)',
+1221 silly install resolved     license: 'BSD-3-Clause',
+1221 silly install resolved     author: { name: 'Google LLC' },
+1221 silly install resolved     homepage: 'https://github.com/lit/lit/tree/main/packages/labs/ssr-dom-shim',
+1221 silly install resolved     repository:
+1221 silly install resolved      { type: 'git',
+1221 silly install resolved        url: 'git+https://github.com/lit/lit.git',
+1221 silly install resolved        directory: 'packages/labs/ssr-dom-shim' },
+1221 silly install resolved     main: 'index.js',
+1221 silly install resolved     typings: 'index.d.ts',
+1221 silly install resolved     type: 'module',
+1221 silly install resolved     exports: { '.': [Object] },
+1221 silly install resolved     scripts: { build: 'wireit', 'build:ts': 'wireit', test: 'wireit' },
+1221 silly install resolved     wireit: { build: [Object], 'build:ts': [Object], test: [Object] },
+1221 silly install resolved     _id: '@lit-labs/ssr-dom-shim@1.2.0',
+1221 silly install resolved     gitHead: 'b4e3c0ef472b89aee09c1ecf194e2bbb9b1441f7',
+1221 silly install resolved     bugs: { url: 'https://github.com/lit/lit/issues' },
+1221 silly install resolved     _nodeVersion: '20.11.0',
+1221 silly install resolved     _npmVersion: '10.2.4',
+1221 silly install resolved     dist:
+1221 silly install resolved      { integrity: 'sha512-yWJKmpGE6lUURKAaIltoPIE/wrbY3TEkqQt+X0m+7fQNnAv0keydnYvbiJFP1PnMhizmIWRWOG5KLhYyc/xl+g==',
+1221 silly install resolved        shasum: '353ce4a76c83fadec272ea5674ede767650762fd',
+1221 silly install resolved        tarball: 'https://registry.npmjs.org/@lit-labs/ssr-dom-shim/-/ssr-dom-shim-1.2.0.tgz',
+1221 silly install resolved        fileCount: 10,
+1221 silly install resolved        unpackedSize: 35738,
+1221 silly install resolved        signatures: [Object] },
+1221 silly install resolved     _npmUser: { name: 'lit-robot', email: 'lit-robot@google.com' },
+1221 silly install resolved     directories: {},
+1221 silly install resolved     maintainers:
+1221 silly install resolved      [ [Object],
+1221 silly install resolved        [Object],
+1221 silly install resolved        [Object],
+1221 silly install resolved        [Object],
+1221 silly install resolved        [Object],
+1221 silly install resolved        [Object],
+1221 silly install resolved        [Object],
+1221 silly install resolved        [Object],
+1221 silly install resolved        [Object],
+1221 silly install resolved        [Object],
+1221 silly install resolved        [Object] ],
+1221 silly install resolved     _npmOperationalInternal:
+1221 silly install resolved      { host: 's3://npm-registry-packages',
+1221 silly install resolved        tmp: 'tmp/ssr-dom-shim_1.2.0_1706730588502_0.13414509998548896' },
+1221 silly install resolved     _hasShrinkwrap: false,
+1221 silly install resolved     _shasum: '353ce4a76c83fadec272ea5674ede767650762fd',
+1221 silly install resolved     _resolved: 'https://registry.npmjs.org/@lit-labs/ssr-dom-shim/-/ssr-dom-shim-1.2.0.tgz',
+1221 silly install resolved     _from: '@lit-labs/ssr-dom-shim@>=1.2.0 <2.0.0',
+1221 silly install resolved     readme: 'ERROR: No README data found!' } ]
+1222 info install @lit-labs/ssr-dom-shim@1.2.0 into /Users/idscomercial/Desktop/ejercicioA/node_modules/lit/node_modules/lit-element
+1223 info installOne @lit-labs/ssr-dom-shim@1.2.0
+1224 verbose installOne of @lit-labs/ssr-dom-shim to /Users/idscomercial/Desktop/ejercicioA/node_modules/lit/node_modules/lit-element not in flight; installing
+1225 verbose correctMkdir /Users/idscomercial/.npm/_locks correctMkdir not in flight; initializing
+1226 verbose lock using /Users/idscomercial/.npm/_locks/lit-labs-ssr-dom-shim-b498b2507b2b7c27.lock for /Users/idscomercial/Desktop/ejercicioA/node_modules/lit/node_modules/@lit/reactive-element/node_modules/@lit-labs/ssr-dom-shim
+1227 verbose lock using /Users/idscomercial/.npm/_locks/lit-labs-ssr-dom-shim-d5387d583b6840af.lock for /Users/idscomercial/Desktop/ejercicioA/node_modules/lit/node_modules/lit-element/node_modules/@lit-labs/ssr-dom-shim
+1228 silly install write writing @lit-labs/ssr-dom-shim 1.2.0 to /Users/idscomercial/Desktop/ejercicioA/node_modules/lit/node_modules/@lit/reactive-element/node_modules/@lit-labs/ssr-dom-shim
+1229 silly install write writing @lit-labs/ssr-dom-shim 1.2.0 to /Users/idscomercial/Desktop/ejercicioA/node_modules/lit/node_modules/lit-element/node_modules/@lit-labs/ssr-dom-shim
+1230 verbose unbuild node_modules/lit/node_modules/@lit/reactive-element/node_modules/@lit-labs/ssr-dom-shim
+1231 verbose unbuild node_modules/lit/node_modules/lit-element/node_modules/@lit-labs/ssr-dom-shim
+1232 silly gentlyRm /Users/idscomercial/Desktop/ejercicioA/node_modules/lit/node_modules/@lit/reactive-element/node_modules/@lit-labs/ssr-dom-shim is being purged from base /Users/idscomercial/Desktop/ejercicioA
+1233 verbose gentlyRm don't care about contents; nuking /Users/idscomercial/Desktop/ejercicioA/node_modules/lit/node_modules/@lit/reactive-element/node_modules/@lit-labs/ssr-dom-shim
+1234 silly gentlyRm /Users/idscomercial/Desktop/ejercicioA/node_modules/lit/node_modules/lit-element/node_modules/@lit-labs/ssr-dom-shim is being purged from base /Users/idscomercial/Desktop/ejercicioA
+1235 verbose gentlyRm don't care about contents; nuking /Users/idscomercial/Desktop/ejercicioA/node_modules/lit/node_modules/lit-element/node_modules/@lit-labs/ssr-dom-shim
+1236 verbose tar unpack /Users/idscomercial/.npm/@lit-labs/ssr-dom-shim/1.2.0/package.tgz
+1237 verbose tar unpacking to /Users/idscomercial/Desktop/ejercicioA/node_modules/lit/node_modules/@lit/reactive-element/node_modules/@lit-labs/ssr-dom-shim
+1238 silly gentlyRm /Users/idscomercial/Desktop/ejercicioA/node_modules/lit/node_modules/@lit/reactive-element/node_modules/@lit-labs/ssr-dom-shim is being purged
+1239 verbose gentlyRm don't care about contents; nuking /Users/idscomercial/Desktop/ejercicioA/node_modules/lit/node_modules/@lit/reactive-element/node_modules/@lit-labs/ssr-dom-shim
+1240 verbose tar unpack /Users/idscomercial/.npm/@lit-labs/ssr-dom-shim/1.2.0/package.tgz
+1241 verbose tar unpacking to /Users/idscomercial/Desktop/ejercicioA/node_modules/lit/node_modules/lit-element/node_modules/@lit-labs/ssr-dom-shim
+1242 silly gentlyRm /Users/idscomercial/Desktop/ejercicioA/node_modules/lit/node_modules/lit-element/node_modules/@lit-labs/ssr-dom-shim is being purged
+1243 verbose gentlyRm don't care about contents; nuking /Users/idscomercial/Desktop/ejercicioA/node_modules/lit/node_modules/lit-element/node_modules/@lit-labs/ssr-dom-shim
+1244 silly gunzTarPerm modes [ '755', '644' ]
+1245 silly gunzTarPerm modes [ '755', '644' ]
+1246 silly gunzTarPerm extractEntry lib/element-internals.js
+1247 silly gunzTarPerm extractEntry lib/element-internals.js
+1248 silly gunzTarPerm extractEntry index.js
+1249 silly gunzTarPerm extractEntry package.json
+1250 silly gunzTarPerm extractEntry index.js
+1251 silly gunzTarPerm extractEntry package.json
+1252 silly gunzTarPerm extractEntry lib/element-internals.d.ts.map
+1253 silly gunzTarPerm extractEntry lib/element-internals.js.map
+1254 silly gunzTarPerm extractEntry lib/element-internals.d.ts.map
+1255 silly gunzTarPerm extractEntry lib/element-internals.js.map
+1256 silly gunzTarPerm extractEntry index.d.ts.map
+1257 silly gunzTarPerm extractEntry index.d.ts.map
+1258 silly gunzTarPerm extractEntry index.js.map
+1259 silly gunzTarPerm extractEntry README.md
+1260 silly gunzTarPerm extractEntry index.js.map
+1261 silly gunzTarPerm extractEntry README.md
+1262 silly gunzTarPerm extractEntry lib/element-internals.d.ts
+1263 silly gunzTarPerm extractEntry index.d.ts
+1264 silly gunzTarPerm extractEntry lib/element-internals.d.ts
+1265 silly gunzTarPerm extractEntry index.d.ts
+1266 verbose write writing to /Users/idscomercial/Desktop/ejercicioA/node_modules/lit/node_modules/@lit/reactive-element/node_modules/@lit-labs/ssr-dom-shim/package.json
+1267 info preinstall @lit-labs/ssr-dom-shim@1.2.0
+1268 verbose readDependencies loading dependencies from /Users/idscomercial/Desktop/ejercicioA/node_modules/lit/node_modules/@lit/reactive-element/node_modules/@lit-labs/ssr-dom-shim/package.json
+1269 verbose write writing to /Users/idscomercial/Desktop/ejercicioA/node_modules/lit/node_modules/lit-element/node_modules/@lit-labs/ssr-dom-shim/package.json
+1270 info preinstall @lit-labs/ssr-dom-shim@1.2.0
+1271 verbose readDependencies loading dependencies from /Users/idscomercial/Desktop/ejercicioA/node_modules/lit/node_modules/@lit/reactive-element/node_modules/@lit-labs/ssr-dom-shim/package.json
+1272 verbose readDependencies loading dependencies from /Users/idscomercial/Desktop/ejercicioA/node_modules/lit/node_modules/lit-element/node_modules/@lit-labs/ssr-dom-shim/package.json
+1273 silly install resolved []
+1274 verbose about to build /Users/idscomercial/Desktop/ejercicioA/node_modules/lit/node_modules/@lit/reactive-element/node_modules/@lit-labs/ssr-dom-shim
+1275 info build /Users/idscomercial/Desktop/ejercicioA/node_modules/lit/node_modules/@lit/reactive-element/node_modules/@lit-labs/ssr-dom-shim
+1276 verbose readDependencies loading dependencies from /Users/idscomercial/Desktop/ejercicioA/node_modules/lit/node_modules/lit-element/node_modules/@lit-labs/ssr-dom-shim/package.json
+1277 info linkStuff @lit-labs/ssr-dom-shim@1.2.0
+1278 silly linkStuff @lit-labs/ssr-dom-shim@1.2.0 has /Users/idscomercial/Desktop/ejercicioA/node_modules/lit/node_modules/@lit/reactive-element/node_modules as its parent node_modules
+1279 silly install resolved []
+1280 verbose about to build /Users/idscomercial/Desktop/ejercicioA/node_modules/lit/node_modules/lit-element/node_modules/@lit-labs/ssr-dom-shim
+1281 info build /Users/idscomercial/Desktop/ejercicioA/node_modules/lit/node_modules/lit-element/node_modules/@lit-labs/ssr-dom-shim
+1282 verbose linkBins @lit-labs/ssr-dom-shim@1.2.0
+1283 verbose linkMans @lit-labs/ssr-dom-shim@1.2.0
+1284 verbose rebuildBundles @lit-labs/ssr-dom-shim@1.2.0
+1285 info install @lit-labs/ssr-dom-shim@1.2.0
+1286 info linkStuff @lit-labs/ssr-dom-shim@1.2.0
+1287 silly linkStuff @lit-labs/ssr-dom-shim@1.2.0 has /Users/idscomercial/Desktop/ejercicioA/node_modules/lit/node_modules/lit-element/node_modules as its parent node_modules
+1288 info postinstall @lit-labs/ssr-dom-shim@1.2.0
+1289 verbose unlock done using /Users/idscomercial/.npm/_locks/lit-labs-ssr-dom-shim-b498b2507b2b7c27.lock for /Users/idscomercial/Desktop/ejercicioA/node_modules/lit/node_modules/@lit/reactive-element/node_modules/@lit-labs/ssr-dom-shim
+1290 verbose about to build /Users/idscomercial/Desktop/ejercicioA/node_modules/lit/node_modules/@lit/reactive-element
+1291 info build /Users/idscomercial/Desktop/ejercicioA/node_modules/lit/node_modules/@lit/reactive-element
+1292 verbose linkBins @lit-labs/ssr-dom-shim@1.2.0
+1293 verbose linkMans @lit-labs/ssr-dom-shim@1.2.0
+1294 verbose rebuildBundles @lit-labs/ssr-dom-shim@1.2.0
+1295 info install @lit-labs/ssr-dom-shim@1.2.0
+1296 info postinstall @lit-labs/ssr-dom-shim@1.2.0
+1297 info linkStuff @lit/reactive-element@2.0.4
+1298 silly linkStuff @lit/reactive-element@2.0.4 has /Users/idscomercial/Desktop/ejercicioA/node_modules/lit/node_modules as its parent node_modules
+1299 verbose unlock done using /Users/idscomercial/.npm/_locks/lit-labs-ssr-dom-shim-d5387d583b6840af.lock for /Users/idscomercial/Desktop/ejercicioA/node_modules/lit/node_modules/lit-element/node_modules/@lit-labs/ssr-dom-shim
+1300 verbose about to build /Users/idscomercial/Desktop/ejercicioA/node_modules/lit/node_modules/lit-element
+1301 info build /Users/idscomercial/Desktop/ejercicioA/node_modules/lit/node_modules/lit-element
+1302 verbose linkBins @lit/reactive-element@2.0.4
+1303 verbose linkMans @lit/reactive-element@2.0.4
+1304 verbose rebuildBundles @lit/reactive-element@2.0.4
+1305 verbose rebuildBundles [ '@lit-labs' ]
+1306 info install @lit/reactive-element@2.0.4
+1307 info linkStuff lit-element@4.0.5
+1308 silly linkStuff lit-element@4.0.5 has /Users/idscomercial/Desktop/ejercicioA/node_modules/lit/node_modules as its parent node_modules
+1309 info postinstall @lit/reactive-element@2.0.4
+1310 verbose unlock done using /Users/idscomercial/.npm/_locks/lit-reactive-element-25dd75f26fe4c8ca.lock for /Users/idscomercial/Desktop/ejercicioA/node_modules/lit/node_modules/@lit/reactive-element
+1311 verbose linkBins lit-element@4.0.5
+1312 verbose linkMans lit-element@4.0.5
+1313 verbose rebuildBundles lit-element@4.0.5
+1314 verbose rebuildBundles [ '@lit-labs' ]
+1315 info install lit-element@4.0.5
+1316 info postinstall lit-element@4.0.5
+1317 verbose unlock done using /Users/idscomercial/.npm/_locks/lit-element-f3d14b3568652231.lock for /Users/idscomercial/Desktop/ejercicioA/node_modules/lit/node_modules/lit-element
+1318 verbose write writing to /Users/idscomercial/Desktop/ejercicioA/node_modules/lit/node_modules/lit-html/package.json
+1319 info preinstall lit-html@3.1.3
+1320 verbose readDependencies loading dependencies from /Users/idscomercial/Desktop/ejercicioA/node_modules/lit/node_modules/lit-html/package.json
+1321 silly prepareForInstallMany adding @types/trusted-types@^2.0.2 from lit-html dependencies
+1322 verbose readDependencies loading dependencies from /Users/idscomercial/Desktop/ejercicioA/node_modules/lit/node_modules/lit-html/package.json
+1323 silly cache add args [ '@types/trusted-types@^2.0.2', null ]
+1324 verbose cache add spec @types/trusted-types@^2.0.2
+1325 silly cache add parsed spec Result {
+1325 silly cache add   raw: '@types/trusted-types@^2.0.2',
+1325 silly cache add   scope: '@types',
+1325 silly cache add   name: '@types/trusted-types',
+1325 silly cache add   rawSpec: '^2.0.2',
+1325 silly cache add   spec: '>=2.0.2 <3.0.0',
+1325 silly cache add   type: 'range' }
+1326 silly addNamed @types/trusted-types@>=2.0.2 <3.0.0
+1327 verbose addNamed ">=2.0.2 <3.0.0" is a valid semver range for @types/trusted-types
+1328 silly addNameRange { name: '@types/trusted-types',
+1328 silly addNameRange   range: '>=2.0.2 <3.0.0',
+1328 silly addNameRange   hasData: false }
+1329 silly mapToRegistry name @types/trusted-types
+1330 silly mapToRegistry scope (from package name) @types
+1331 verbose mapToRegistry no registry URL found in name for scope @types
+1332 silly mapToRegistry using default registry
+1333 silly mapToRegistry registry https://registry.npmjs.org/
+1334 silly mapToRegistry data Result {
+1334 silly mapToRegistry   raw: '@types/trusted-types',
+1334 silly mapToRegistry   scope: '@types',
+1334 silly mapToRegistry   name: '@types/trusted-types',
+1334 silly mapToRegistry   rawSpec: '',
+1334 silly mapToRegistry   spec: 'latest',
+1334 silly mapToRegistry   type: 'tag' }
+1335 silly mapToRegistry uri https://registry.npmjs.org/@types%2ftrusted-types
+1336 verbose addNameRange registry:https://registry.npmjs.org/@types%2ftrusted-types not in flight; fetching
+1337 verbose request uri https://registry.npmjs.org/@types%2ftrusted-types
+1338 verbose request no auth needed
+1339 info attempt registry request try #1 at 20:15:53
+1340 verbose etag W/"7c5104efba916e219ddc73c78c53e225"
+1341 verbose lastModified Mon, 11 Mar 2024 10:15:27 GMT
+1342 http request GET https://registry.npmjs.org/@types%2ftrusted-types
+1343 http 304 https://registry.npmjs.org/@types%2ftrusted-types
+1344 verbose headers { date: 'Tue, 07 May 2024 01:15:53 GMT',
+1344 verbose headers   connection: 'keep-alive',
+1344 verbose headers   'cf-ray': '87fd5c8b1edf6c49-DFW',
+1344 verbose headers   'cf-cache-status': 'HIT',
+1344 verbose headers   age: '259',
+1344 verbose headers   'cache-control': 'public, max-age=300',
+1344 verbose headers   etag: '"7c5104efba916e219ddc73c78c53e225"',
+1344 verbose headers   'last-modified': 'Mon, 11 Mar 2024 10:15:27 GMT',
+1344 verbose headers   vary: 'Accept-Encoding',
+1344 verbose headers   server: 'cloudflare' }
+1345 silly get cb [ 304,
+1345 silly get   { date: 'Tue, 07 May 2024 01:15:53 GMT',
+1345 silly get     connection: 'keep-alive',
+1345 silly get     'cf-ray': '87fd5c8b1edf6c49-DFW',
+1345 silly get     'cf-cache-status': 'HIT',
+1345 silly get     age: '259',
+1345 silly get     'cache-control': 'public, max-age=300',
+1345 silly get     etag: '"7c5104efba916e219ddc73c78c53e225"',
+1345 silly get     'last-modified': 'Mon, 11 Mar 2024 10:15:27 GMT',
+1345 silly get     vary: 'Accept-Encoding',
+1345 silly get     server: 'cloudflare' } ]
+1346 verbose etag https://registry.npmjs.org/@types%2ftrusted-types from cache
+1347 verbose get saving @types/trusted-types to /Users/idscomercial/.npm/registry.npmjs.org/_40types_252ftrusted-types/.cache.json
+1348 verbose correctMkdir /Users/idscomercial/.npm correctMkdir not in flight; initializing
+1349 silly addNameRange number 2 { name: '@types/trusted-types',
+1349 silly addNameRange   range: '>=2.0.2 <3.0.0',
+1349 silly addNameRange   hasData: true }
+1350 silly addNameRange versions [ '@types/trusted-types',
+1350 silly addNameRange   [ '1.0.0',
+1350 silly addNameRange     '1.0.1',
+1350 silly addNameRange     '1.0.2',
+1350 silly addNameRange     '1.0.3',
+1350 silly addNameRange     '1.0.4',
+1350 silly addNameRange     '1.0.5',
+1350 silly addNameRange     '1.0.6',
+1350 silly addNameRange     '2.0.0',
+1350 silly addNameRange     '2.0.1',
+1350 silly addNameRange     '2.0.2',
+1350 silly addNameRange     '2.0.3',
+1350 silly addNameRange     '2.0.4',
+1350 silly addNameRange     '2.0.5',
+1350 silly addNameRange     '2.0.6',
+1350 silly addNameRange     '2.0.7' ] ]
+1351 silly addNamed @types/trusted-types@2.0.7
+1352 verbose addNamed "2.0.7" is a plain semver version for @types/trusted-types
+1353 silly cache afterAdd @types/trusted-types@2.0.7
+1354 verbose afterAdd /Users/idscomercial/.npm/@types/trusted-types/2.0.7/package/package.json not in flight; writing
+1355 verbose correctMkdir /Users/idscomercial/.npm correctMkdir not in flight; initializing
+1356 verbose afterAdd /Users/idscomercial/.npm/@types/trusted-types/2.0.7/package/package.json written
+1357 silly install resolved [ { name: '@types/trusted-types',
+1357 silly install resolved     version: '2.0.7',
+1357 silly install resolved     description: 'TypeScript definitions for trusted-types',
+1357 silly install resolved     homepage: 'https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/trusted-types',
+1357 silly install resolved     license: 'MIT',
+1357 silly install resolved     contributors: [ [Object], [Object], [Object], [Object], [Object] ],
+1357 silly install resolved     main: '',
+1357 silly install resolved     types: 'index.d.ts',
+1357 silly install resolved     repository:
+1357 silly install resolved      { type: 'git',
+1357 silly install resolved        url: 'git+https://github.com/DefinitelyTyped/DefinitelyTyped.git',
+1357 silly install resolved        directory: 'types/trusted-types' },
+1357 silly install resolved     scripts: {},
+1357 silly install resolved     dependencies: {},
+1357 silly install resolved     typesPublisherContentHash: '20982c5e0452e662515e29b41f7be5a3c69e5918a9228929a563d9f1dfdfbbc5',
+1357 silly install resolved     typeScriptVersion: '4.5',
+1357 silly install resolved     _id: '@types/trusted-types@2.0.7',
+1357 silly install resolved     dist:
+1357 silly install resolved      { integrity: 'sha512-ScaPdn1dQczgbl0QFTeTOmVHFULt394XJgOQNoyVhZ6r2vLnMLJfBPd53SB52T/3G36VI1/g2MZaX0cwDuXsfw==',
+1357 silly install resolved        shasum: 'baccb07a970b91707df3a3e8ba6896c57ead2d11',
+1357 silly install resolved        tarball: 'https://registry.npmjs.org/@types/trusted-types/-/trusted-types-2.0.7.tgz',
+1357 silly install resolved        fileCount: 7,
+1357 silly install resolved        unpackedSize: 8577,
+1357 silly install resolved        signatures: [Object] },
+1357 silly install resolved     _npmUser: { name: 'types', email: 'ts-npm-types@microsoft.com' },
+1357 silly install resolved     directories: {},
+1357 silly install resolved     maintainers: [ [Object] ],
+1357 silly install resolved     _npmOperationalInternal:
+1357 silly install resolved      { host: 's3://npm-registry-packages',
+1357 silly install resolved        tmp: 'tmp/trusted-types_2.0.7_1700529205227_0.22129409281933987' },
+1357 silly install resolved     _hasShrinkwrap: false,
+1357 silly install resolved     _shasum: 'baccb07a970b91707df3a3e8ba6896c57ead2d11',
+1357 silly install resolved     _resolved: 'https://registry.npmjs.org/@types/trusted-types/-/trusted-types-2.0.7.tgz',
+1357 silly install resolved     _from: '@types/trusted-types@>=2.0.2 <3.0.0',
+1357 silly install resolved     bugs: { url: 'https://github.com/DefinitelyTyped/DefinitelyTyped/issues' },
+1357 silly install resolved     readme: 'ERROR: No README data found!' } ]
+1358 info install @types/trusted-types@2.0.7 into /Users/idscomercial/Desktop/ejercicioA/node_modules/lit/node_modules/lit-html
+1359 info installOne @types/trusted-types@2.0.7
+1360 verbose installOne of @types/trusted-types to /Users/idscomercial/Desktop/ejercicioA/node_modules/lit/node_modules/lit-html not in flight; installing
+1361 verbose correctMkdir /Users/idscomercial/.npm/_locks correctMkdir not in flight; initializing
+1362 verbose lock using /Users/idscomercial/.npm/_locks/types-trusted-types-3353a05cfa3f3359.lock for /Users/idscomercial/Desktop/ejercicioA/node_modules/lit/node_modules/lit-html/node_modules/@types/trusted-types
+1363 silly install write writing @types/trusted-types 2.0.7 to /Users/idscomercial/Desktop/ejercicioA/node_modules/lit/node_modules/lit-html/node_modules/@types/trusted-types
+1364 verbose unbuild node_modules/lit/node_modules/lit-html/node_modules/@types/trusted-types
+1365 silly gentlyRm /Users/idscomercial/Desktop/ejercicioA/node_modules/lit/node_modules/lit-html/node_modules/@types/trusted-types is being purged from base /Users/idscomercial/Desktop/ejercicioA
+1366 verbose gentlyRm don't care about contents; nuking /Users/idscomercial/Desktop/ejercicioA/node_modules/lit/node_modules/lit-html/node_modules/@types/trusted-types
+1367 verbose tar unpack /Users/idscomercial/.npm/@types/trusted-types/2.0.7/package.tgz
+1368 verbose tar unpacking to /Users/idscomercial/Desktop/ejercicioA/node_modules/lit/node_modules/lit-html/node_modules/@types/trusted-types
+1369 silly gentlyRm /Users/idscomercial/Desktop/ejercicioA/node_modules/lit/node_modules/lit-html/node_modules/@types/trusted-types is being purged
+1370 verbose gentlyRm don't care about contents; nuking /Users/idscomercial/Desktop/ejercicioA/node_modules/lit/node_modules/lit-html/node_modules/@types/trusted-types
+1371 silly gunzTarPerm modes [ '755', '644' ]
+1372 silly gunzTarPerm extractEntry
+1373 silly gunzTarPerm extractEntry
+1374 silly gunzTarPerm extractEntry
+1375 silly gunzTarPerm extractEntry
+1376 silly gunzTarPerm extractEntry
+1377 silly gunzTarPerm extractEntry
+1378 silly gunzTarPerm extractEntry
+1379 verbose unlock done using /Users/idscomercial/.npm/_locks/types-trusted-types-3353a05cfa3f3359.lock for /Users/idscomercial/Desktop/ejercicioA/node_modules/lit/node_modules/lit-html/node_modules/@types/trusted-types
+1380 verbose about to build /Users/idscomercial/Desktop/ejercicioA/node_modules/lit/node_modules/lit-html
+1381 verbose unlock done using /Users/idscomercial/.npm/_locks/lit-html-145eb1ad6e4bc0ba.lock for /Users/idscomercial/Desktop/ejercicioA/node_modules/lit/node_modules/lit-html
+1382 verbose about to build /Users/idscomercial/Desktop/ejercicioA/node_modules/lit
+1383 verbose unlock done using /Users/idscomercial/.npm/_locks/lit-3793176c9341c235.lock for /Users/idscomercial/Desktop/ejercicioA/node_modules/lit
+1384 verbose stack Error: ENOTDIR: not a directory, open '/Users/idscomercial/Desktop/ejercicioA/node_modules/lit/node_modules/lit-html/node_modules/@types/trusted-types/package.json'
+1384 verbose stack     at Error (native)
+1385 verbose cwd /Users/idscomercial/Desktop/ejercicioA
+1386 error Darwin 21.6.0
+1387 error argv "/Users/idscomercial/.nvm/versions/node/v4.5.0/bin/node" "/Users/idscomercial/.nvm/versions/node/v4.5.0/bin/npm" "i" "lit"
+1388 error node v4.5.0
+1389 error npm  v2.15.9
+1390 error path /Users/idscomercial/Desktop/ejercicioA/node_modules/lit/node_modules/lit-html/node_modules/@types/trusted-types/package.json
+1391 error code ENOTDIR
+1392 error errno -20
+1393 error syscall open
+1394 error ENOTDIR: not a directory, open '/Users/idscomercial/Desktop/ejercicioA/node_modules/lit/node_modules/lit-html/node_modules/@types/trusted-types/package.json'
+1395 error If you need help, you may report this error at:
+1395 error     <https://github.com/npm/npm/issues>
+1396 verbose exit [ -20, true ]
+1397 verbose unbuild node_modules/lit/node_modules/lit-html/node_modules/@types/trusted-types
+1398 silly gentlyRm /Users/idscomercial/Desktop/ejercicioA/node_modules/lit/node_modules/lit-html/node_modules/@types/trusted-types is being purged from base /Users/idscomercial/Desktop/ejercicioA
+1399 verbose gentlyRm don't care about contents; nuking /Users/idscomercial/Desktop/ejercicioA/node_modules/lit/node_modules/lit-html/node_modules/@types/trusted-types
+1400 silly vacuum-fs purging /Users/idscomercial/Desktop/ejercicioA/node_modules/lit/node_modules/lit-html/node_modules/@types/trusted-types
+1401 silly vacuum-fs removing /Users/idscomercial/Desktop/ejercicioA/node_modules/lit/node_modules/lit-html/node_modules/@types
+1402 silly vacuum-fs removing /Users/idscomercial/Desktop/ejercicioA/node_modules/lit/node_modules/lit-html/node_modules
+1403 silly vacuum-fs quitting because other entries in /Users/idscomercial/Desktop/ejercicioA/node_modules/lit/node_modules/lit-html
+1404 verbose unbuild node_modules/lit/node_modules/lit-html
+1405 info preuninstall lit-html@3.1.3
+1406 info uninstall lit-html@3.1.3
+1407 verbose unbuild rmStuff lit-html@3.1.3 from /Users/idscomercial/Desktop/ejercicioA/node_modules
+1408 verbose unbuild rmStuff in /Users/idscomercial/Desktop/ejercicioA/node_modules/lit/node_modules
+1409 info postuninstall lit-html@3.1.3
+1410 silly gentlyRm /Users/idscomercial/Desktop/ejercicioA/node_modules/lit/node_modules/lit-html is being purged from base /Users/idscomercial/Desktop/ejercicioA
+1411 verbose gentlyRm don't care about contents; nuking /Users/idscomercial/Desktop/ejercicioA/node_modules/lit/node_modules/lit-html
+1412 silly vacuum-fs purging /Users/idscomercial/Desktop/ejercicioA/node_modules/lit/node_modules/lit-html
+1413 silly vacuum-fs quitting because other entries in /Users/idscomercial/Desktop/ejercicioA/node_modules/lit/node_modules
+1414 verbose unbuild node_modules/lit
+1415 info preuninstall lit@3.1.3
+1416 info uninstall lit@3.1.3
+1417 verbose unbuild rmStuff lit@3.1.3 from /Users/idscomercial/Desktop/ejercicioA/node_modules
+1418 info postuninstall lit@3.1.3
+1419 silly gentlyRm /Users/idscomercial/Desktop/ejercicioA/node_modules/lit is being purged from base /Users/idscomercial/Desktop/ejercicioA
+1420 verbose gentlyRm don't care about contents; nuking /Users/idscomercial/Desktop/ejercicioA/node_modules/lit
+1421 silly vacuum-fs purging /Users/idscomercial/Desktop/ejercicioA/node_modules/lit
+1422 silly vacuum-fs removing /Users/idscomercial/Desktop/ejercicioA/node_modules
+1423 silly vacuum-fs finished vacuuming up to /Users/idscomercial/Desktop/ejercicioA
